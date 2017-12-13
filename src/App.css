@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,700|Barlow:400,700');
+
+.App {
+	font-family: 'Barlow', sans-serif !important;
+	padding-top: 12px;
+	padding-bottom: 32px;
+}

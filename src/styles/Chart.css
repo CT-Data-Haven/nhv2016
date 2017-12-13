@@ -1,0 +1,30 @@
+.Chart {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.Chart .axis .tick-line path {
+    stroke: #bfbfbf;
+    stroke-width: 1px;
+}
+
+.Chart rect.bar {
+    transition: x 400ms ease-in-out, y 400ms ease-in-out, width 400ms ease-in-out, height 400ms ease-in-out,
+		fill 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.Chart text, .Chart tspan {
+    transition: transform 400ms;
+}
+
+.Chart .label {
+
+}
+
+.Chart g.percent-axis text {
+	font-size: 0.85em;
+}
+
+.Chart text.annotation-note-label {
+    fill: #222;
+}

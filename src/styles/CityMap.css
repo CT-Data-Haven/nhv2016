@@ -1,0 +1,10 @@
+.CityMap .map-shape {
+	cursor: pointer;
+	transition: fill 400ms, opacity 400ms;
+}
+
+.CityMap .custom-tooltip {
+	font-size: 0.8em;
+	padding: 4px;
+	background-color: #333;
+}

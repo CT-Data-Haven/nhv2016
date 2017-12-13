@@ -1,0 +1,778 @@
+neighborhood,geoType,indicator,value,topic,displayTopic,type,format,order,topicOrder
+Greater New Haven,3_region,Total population,464596,age,Age,table,",",1,1
+New Haven,2_city,Total population,130405,age,Age,table,",",1,1
+Amity,1_neighborhood,Total population,4970,age,Age,table,",",1,1
+Annex,1_neighborhood,Total population,6677,age,Age,table,",",1,1
+Beaver Hills,1_neighborhood,Total population,5135,age,Age,table,",",1,1
+Dixwell,1_neighborhood,Total population,4962,age,Age,table,",",1,1
+Downtown,1_neighborhood,Total population,10935,age,Age,table,",",1,1
+Dwight,1_neighborhood,Total population,4403,age,Age,table,",",1,1
+East Rock,1_neighborhood,Total population,8567,age,Age,table,",",1,1
+East Shore,1_neighborhood,Total population,4567,age,Age,table,",",1,1
+Edgewood,1_neighborhood,Total population,4391,age,Age,table,",",1,1
+Fair Haven,1_neighborhood,Total population,17305,age,Age,table,",",1,1
+Fair Haven Heights,1_neighborhood,Total population,6640,age,Age,table,",",1,1
+Hill,1_neighborhood,Total population,16220,age,Age,table,",",1,1
+Newhallville,1_neighborhood,Total population,5639,age,Age,table,",",1,1
+Prospect Hill,1_neighborhood,Total population,4226,age,Age,table,",",1,1
+Quinnipiac Meadows,1_neighborhood,Total population,6014,age,Age,table,",",1,1
+West River,1_neighborhood,Total population,3527,age,Age,table,",",1,1
+West Rock,1_neighborhood,Total population,4415,age,Age,table,",",1,1
+Westville,1_neighborhood,Total population,8548,age,Age,table,",",1,1
+Wooster Square/Mill River,1_neighborhood,Total population,3264,age,Age,table,",",1,1
+Greater New Haven,3_region,Population under age 18,94327,age,Age,table,",",2,2
+New Haven,2_city,Population under age 18,28682,age,Age,table,",",2,2
+Amity,1_neighborhood,Population under age 18,1327,age,Age,table,",",2,2
+Annex,1_neighborhood,Population under age 18,1557,age,Age,table,",",2,2
+Beaver Hills,1_neighborhood,Population under age 18,1443,age,Age,table,",",2,2
+Dixwell,1_neighborhood,Population under age 18,1034,age,Age,table,",",2,2
+Downtown,1_neighborhood,Population under age 18,378,age,Age,table,",",2,2
+Dwight,1_neighborhood,Population under age 18,915,age,Age,table,",",2,2
+East Rock,1_neighborhood,Population under age 18,1205,age,Age,table,",",2,2
+East Shore,1_neighborhood,Population under age 18,956,age,Age,table,",",2,2
+Edgewood,1_neighborhood,Population under age 18,1092,age,Age,table,",",2,2
+Fair Haven,1_neighborhood,Population under age 18,5094,age,Age,table,",",2,2
+Fair Haven Heights,1_neighborhood,Population under age 18,1126,age,Age,table,",",2,2
+Hill,1_neighborhood,Population under age 18,4967,age,Age,table,",",2,2
+Newhallville,1_neighborhood,Population under age 18,1624,age,Age,table,",",2,2
+Prospect Hill,1_neighborhood,Population under age 18,998,age,Age,table,",",2,2
+Quinnipiac Meadows,1_neighborhood,Population under age 18,1294,age,Age,table,",",2,2
+West River,1_neighborhood,Population under age 18,831,age,Age,table,",",2,2
+West Rock,1_neighborhood,Population under age 18,707,age,Age,table,",",2,2
+Westville,1_neighborhood,Population under age 18,1663,age,Age,table,",",2,2
+Wooster Square/Mill River,1_neighborhood,Population under age 18,471,age,Age,table,",",2,2
+Greater New Haven,3_region,Percent under age 18,0.203,age,Age,map,.0%,3,3
+New Haven,2_city,Percent under age 18,0.22,age,Age,map,.0%,3,3
+Amity,1_neighborhood,Percent under age 18,0.267,age,Age,map,.0%,3,3
+Annex,1_neighborhood,Percent under age 18,0.233,age,Age,map,.0%,3,3
+Beaver Hills,1_neighborhood,Percent under age 18,0.281,age,Age,map,.0%,3,3
+Dixwell,1_neighborhood,Percent under age 18,0.208,age,Age,map,.0%,3,3
+Downtown,1_neighborhood,Percent under age 18,0.035,age,Age,map,.0%,3,3
+Dwight,1_neighborhood,Percent under age 18,0.208,age,Age,map,.0%,3,3
+East Rock,1_neighborhood,Percent under age 18,0.141,age,Age,map,.0%,3,3
+East Shore,1_neighborhood,Percent under age 18,0.209,age,Age,map,.0%,3,3
+Edgewood,1_neighborhood,Percent under age 18,0.249,age,Age,map,.0%,3,3
+Fair Haven,1_neighborhood,Percent under age 18,0.294,age,Age,map,.0%,3,3
+Fair Haven Heights,1_neighborhood,Percent under age 18,0.17,age,Age,map,.0%,3,3
+Hill,1_neighborhood,Percent under age 18,0.306,age,Age,map,.0%,3,3
+Newhallville,1_neighborhood,Percent under age 18,0.288,age,Age,map,.0%,3,3
+Prospect Hill,1_neighborhood,Percent under age 18,0.236,age,Age,map,.0%,3,3
+Quinnipiac Meadows,1_neighborhood,Percent under age 18,0.215,age,Age,map,.0%,3,3
+West River,1_neighborhood,Percent under age 18,0.236,age,Age,map,.0%,3,3
+West Rock,1_neighborhood,Percent under age 18,0.16,age,Age,map,.0%,3,3
+Westville,1_neighborhood,Percent under age 18,0.195,age,Age,map,.0%,3,3
+Wooster Square/Mill River,1_neighborhood,Percent under age 18,0.144,age,Age,map,.0%,3,3
+Greater New Haven,3_region,Population ages 65+,72214,age,Age,table,",",4,4
+New Haven,2_city,Population ages 65+,13681,age,Age,table,",",4,4
+Amity,1_neighborhood,Population ages 65+,479,age,Age,table,",",4,4
+Annex,1_neighborhood,Population ages 65+,692,age,Age,table,",",4,4
+Beaver Hills,1_neighborhood,Population ages 65+,580,age,Age,table,",",4,4
+Dixwell,1_neighborhood,Population ages 65+,610,age,Age,table,",",4,4
+Downtown,1_neighborhood,Population ages 65+,551,age,Age,table,",",4,4
+Dwight,1_neighborhood,Population ages 65+,329,age,Age,table,",",4,4
+East Rock,1_neighborhood,Population ages 65+,798,age,Age,table,",",4,4
+East Shore,1_neighborhood,Population ages 65+,862,age,Age,table,",",4,4
+Edgewood,1_neighborhood,Population ages 65+,474,age,Age,table,",",4,4
+Fair Haven,1_neighborhood,Population ages 65+,1149,age,Age,table,",",4,4
+Fair Haven Heights,1_neighborhood,Population ages 65+,1657,age,Age,table,",",4,4
+Hill,1_neighborhood,Population ages 65+,1519,age,Age,table,",",4,4
+Newhallville,1_neighborhood,Population ages 65+,850,age,Age,table,",",4,4
+Prospect Hill,1_neighborhood,Population ages 65+,381,age,Age,table,",",4,4
+Quinnipiac Meadows,1_neighborhood,Population ages 65+,598,age,Age,table,",",4,4
+West River,1_neighborhood,Population ages 65+,464,age,Age,table,",",4,4
+West Rock,1_neighborhood,Population ages 65+,278,age,Age,table,",",4,4
+Westville,1_neighborhood,Population ages 65+,1124,age,Age,table,",",4,4
+Wooster Square/Mill River,1_neighborhood,Population ages 65+,286,age,Age,table,",",4,4
+Greater New Haven,3_region,Percent ages 65+,0.155,age,Age,map,.0%,5,5
+New Haven,2_city,Percent ages 65+,0.105,age,Age,map,.0%,5,5
+Amity,1_neighborhood,Percent ages 65+,0.096,age,Age,map,.0%,5,5
+Annex,1_neighborhood,Percent ages 65+,0.104,age,Age,map,.0%,5,5
+Beaver Hills,1_neighborhood,Percent ages 65+,0.113,age,Age,map,.0%,5,5
+Dixwell,1_neighborhood,Percent ages 65+,0.123,age,Age,map,.0%,5,5
+Downtown,1_neighborhood,Percent ages 65+,0.05,age,Age,map,.0%,5,5
+Dwight,1_neighborhood,Percent ages 65+,0.075,age,Age,map,.0%,5,5
+East Rock,1_neighborhood,Percent ages 65+,0.093,age,Age,map,.0%,5,5
+East Shore,1_neighborhood,Percent ages 65+,0.189,age,Age,map,.0%,5,5
+Edgewood,1_neighborhood,Percent ages 65+,0.108,age,Age,map,.0%,5,5
+Fair Haven,1_neighborhood,Percent ages 65+,0.066,age,Age,map,.0%,5,5
+Fair Haven Heights,1_neighborhood,Percent ages 65+,0.25,age,Age,map,.0%,5,5
+Hill,1_neighborhood,Percent ages 65+,0.094,age,Age,map,.0%,5,5
+Newhallville,1_neighborhood,Percent ages 65+,0.151,age,Age,map,.0%,5,5
+Prospect Hill,1_neighborhood,Percent ages 65+,0.09,age,Age,map,.0%,5,5
+Quinnipiac Meadows,1_neighborhood,Percent ages 65+,0.099,age,Age,map,.0%,5,5
+West River,1_neighborhood,Percent ages 65+,0.132,age,Age,map,.0%,5,5
+West Rock,1_neighborhood,Percent ages 65+,0.063,age,Age,map,.0%,5,5
+Westville,1_neighborhood,Percent ages 65+,0.131,age,Age,map,.0%,5,5
+Wooster Square/Mill River,1_neighborhood,Percent ages 65+,0.088,age,Age,map,.0%,5,5
+Greater New Haven,3_region,Total population,464596,race,Race and ethnicity,table,",",1,6
+New Haven,2_city,Total population,130405,race,Race and ethnicity,table,",",1,6
+Amity,1_neighborhood,Total population,4970,race,Race and ethnicity,table,",",1,6
+Annex,1_neighborhood,Total population,6677,race,Race and ethnicity,table,",",1,6
+Beaver Hills,1_neighborhood,Total population,5135,race,Race and ethnicity,table,",",1,6
+Dixwell,1_neighborhood,Total population,4962,race,Race and ethnicity,table,",",1,6
+Downtown,1_neighborhood,Total population,10935,race,Race and ethnicity,table,",",1,6
+Dwight,1_neighborhood,Total population,4403,race,Race and ethnicity,table,",",1,6
+East Rock,1_neighborhood,Total population,8567,race,Race and ethnicity,table,",",1,6
+East Shore,1_neighborhood,Total population,4567,race,Race and ethnicity,table,",",1,6
+Edgewood,1_neighborhood,Total population,4391,race,Race and ethnicity,table,",",1,6
+Fair Haven,1_neighborhood,Total population,17305,race,Race and ethnicity,table,",",1,6
+Fair Haven Heights,1_neighborhood,Total population,6640,race,Race and ethnicity,table,",",1,6
+Hill,1_neighborhood,Total population,16220,race,Race and ethnicity,table,",",1,6
+Newhallville,1_neighborhood,Total population,5639,race,Race and ethnicity,table,",",1,6
+Prospect Hill,1_neighborhood,Total population,4226,race,Race and ethnicity,table,",",1,6
+Quinnipiac Meadows,1_neighborhood,Total population,6014,race,Race and ethnicity,table,",",1,6
+West River,1_neighborhood,Total population,3527,race,Race and ethnicity,table,",",1,6
+West Rock,1_neighborhood,Total population,4415,race,Race and ethnicity,table,",",1,6
+Westville,1_neighborhood,Total population,8548,race,Race and ethnicity,table,",",1,6
+Wooster Square/Mill River,1_neighborhood,Total population,3264,race,Race and ethnicity,table,",",1,6
+Greater New Haven,3_region,Latino population,66996,race,Race and ethnicity,table,",",2,7
+New Haven,2_city,Latino population,37231,race,Race and ethnicity,table,",",2,7
+Amity,1_neighborhood,Latino population,669,race,Race and ethnicity,table,",",2,7
+Annex,1_neighborhood,Latino population,3073,race,Race and ethnicity,table,",",2,7
+Beaver Hills,1_neighborhood,Latino population,724,race,Race and ethnicity,table,",",2,7
+Dixwell,1_neighborhood,Latino population,658,race,Race and ethnicity,table,",",2,7
+Downtown,1_neighborhood,Latino population,1209,race,Race and ethnicity,table,",",2,7
+Dwight,1_neighborhood,Latino population,1214,race,Race and ethnicity,table,",",2,7
+East Rock,1_neighborhood,Latino population,923,race,Race and ethnicity,table,",",2,7
+East Shore,1_neighborhood,Latino population,357,race,Race and ethnicity,table,",",2,7
+Edgewood,1_neighborhood,Latino population,561,race,Race and ethnicity,table,",",2,7
+Fair Haven,1_neighborhood,Latino population,11605,race,Race and ethnicity,table,",",2,7
+Fair Haven Heights,1_neighborhood,Latino population,2856,race,Race and ethnicity,table,",",2,7
+Hill,1_neighborhood,Latino population,7442,race,Race and ethnicity,table,",",2,7
+Newhallville,1_neighborhood,Latino population,654,race,Race and ethnicity,table,",",2,7
+Prospect Hill,1_neighborhood,Latino population,706,race,Race and ethnicity,table,",",2,7
+Quinnipiac Meadows,1_neighborhood,Latino population,1596,race,Race and ethnicity,table,",",2,7
+West River,1_neighborhood,Latino population,889,race,Race and ethnicity,table,",",2,7
+West Rock,1_neighborhood,Latino population,543,race,Race and ethnicity,table,",",2,7
+Westville,1_neighborhood,Latino population,819,race,Race and ethnicity,table,",",2,7
+Wooster Square/Mill River,1_neighborhood,Latino population,732,race,Race and ethnicity,table,",",2,7
+Greater New Haven,3_region,Percent Latino,0.144,race,Race and ethnicity,map,.0%,3,8
+New Haven,2_city,Percent Latino,0.286,race,Race and ethnicity,map,.0%,3,8
+Amity,1_neighborhood,Percent Latino,0.135,race,Race and ethnicity,map,.0%,3,8
+Annex,1_neighborhood,Percent Latino,0.46,race,Race and ethnicity,map,.0%,3,8
+Beaver Hills,1_neighborhood,Percent Latino,0.141,race,Race and ethnicity,map,.0%,3,8
+Dixwell,1_neighborhood,Percent Latino,0.133,race,Race and ethnicity,map,.0%,3,8
+Downtown,1_neighborhood,Percent Latino,0.111,race,Race and ethnicity,map,.0%,3,8
+Dwight,1_neighborhood,Percent Latino,0.276,race,Race and ethnicity,map,.0%,3,8
+East Rock,1_neighborhood,Percent Latino,0.108,race,Race and ethnicity,map,.0%,3,8
+East Shore,1_neighborhood,Percent Latino,0.078,race,Race and ethnicity,map,.0%,3,8
+Edgewood,1_neighborhood,Percent Latino,0.128,race,Race and ethnicity,map,.0%,3,8
+Fair Haven,1_neighborhood,Percent Latino,0.671,race,Race and ethnicity,map,.0%,3,8
+Fair Haven Heights,1_neighborhood,Percent Latino,0.43,race,Race and ethnicity,map,.0%,3,8
+Hill,1_neighborhood,Percent Latino,0.459,race,Race and ethnicity,map,.0%,3,8
+Newhallville,1_neighborhood,Percent Latino,0.116,race,Race and ethnicity,map,.0%,3,8
+Prospect Hill,1_neighborhood,Percent Latino,0.167,race,Race and ethnicity,map,.0%,3,8
+Quinnipiac Meadows,1_neighborhood,Percent Latino,0.265,race,Race and ethnicity,map,.0%,3,8
+West River,1_neighborhood,Percent Latino,0.252,race,Race and ethnicity,map,.0%,3,8
+West Rock,1_neighborhood,Percent Latino,0.123,race,Race and ethnicity,map,.0%,3,8
+Westville,1_neighborhood,Percent Latino,0.096,race,Race and ethnicity,map,.0%,3,8
+Wooster Square/Mill River,1_neighborhood,Percent Latino,0.224,race,Race and ethnicity,map,.0%,3,8
+Greater New Haven,3_region,White population,293119,race,Race and ethnicity,table,",",4,9
+New Haven,2_city,White population,40164,race,Race and ethnicity,table,",",4,9
+Amity,1_neighborhood,White population,1090,race,Race and ethnicity,table,",",4,9
+Annex,1_neighborhood,White population,1915,race,Race and ethnicity,table,",",4,9
+Beaver Hills,1_neighborhood,White population,750,race,Race and ethnicity,table,",",4,9
+Dixwell,1_neighborhood,White population,794,race,Race and ethnicity,table,",",4,9
+Downtown,1_neighborhood,White population,6134,race,Race and ethnicity,table,",",4,9
+Dwight,1_neighborhood,White population,980,race,Race and ethnicity,table,",",4,9
+East Rock,1_neighborhood,White population,5753,race,Race and ethnicity,table,",",4,9
+East Shore,1_neighborhood,White population,3143,race,Race and ethnicity,table,",",4,9
+Edgewood,1_neighborhood,White population,897,race,Race and ethnicity,table,",",4,9
+Fair Haven,1_neighborhood,White population,2454,race,Race and ethnicity,table,",",4,9
+Fair Haven Heights,1_neighborhood,White population,2392,race,Race and ethnicity,table,",",4,9
+Hill,1_neighborhood,White population,1927,race,Race and ethnicity,table,",",4,9
+Newhallville,1_neighborhood,White population,33,race,Race and ethnicity,table,",",4,9
+Prospect Hill,1_neighborhood,White population,1395,race,Race and ethnicity,table,",",4,9
+Quinnipiac Meadows,1_neighborhood,White population,1559,race,Race and ethnicity,table,",",4,9
+West River,1_neighborhood,White population,505,race,Race and ethnicity,table,",",4,9
+West Rock,1_neighborhood,White population,2031,race,Race and ethnicity,table,",",4,9
+Westville,1_neighborhood,White population,4865,race,Race and ethnicity,table,",",4,9
+Wooster Square/Mill River,1_neighborhood,White population,1547,race,Race and ethnicity,table,",",4,9
+Greater New Haven,3_region,Percent white,0.631,race,Race and ethnicity,map,.0%,5,10
+New Haven,2_city,Percent white,0.308,race,Race and ethnicity,map,.0%,5,10
+Amity,1_neighborhood,Percent white,0.219,race,Race and ethnicity,map,.0%,5,10
+Annex,1_neighborhood,Percent white,0.287,race,Race and ethnicity,map,.0%,5,10
+Beaver Hills,1_neighborhood,Percent white,0.146,race,Race and ethnicity,map,.0%,5,10
+Dixwell,1_neighborhood,Percent white,0.16,race,Race and ethnicity,map,.0%,5,10
+Downtown,1_neighborhood,Percent white,0.561,race,Race and ethnicity,map,.0%,5,10
+Dwight,1_neighborhood,Percent white,0.223,race,Race and ethnicity,map,.0%,5,10
+East Rock,1_neighborhood,Percent white,0.672,race,Race and ethnicity,map,.0%,5,10
+East Shore,1_neighborhood,Percent white,0.688,race,Race and ethnicity,map,.0%,5,10
+Edgewood,1_neighborhood,Percent white,0.204,race,Race and ethnicity,map,.0%,5,10
+Fair Haven,1_neighborhood,Percent white,0.142,race,Race and ethnicity,map,.0%,5,10
+Fair Haven Heights,1_neighborhood,Percent white,0.36,race,Race and ethnicity,map,.0%,5,10
+Hill,1_neighborhood,Percent white,0.119,race,Race and ethnicity,map,.0%,5,10
+Newhallville,1_neighborhood,Percent white,0.006,race,Race and ethnicity,map,.0%,5,10
+Prospect Hill,1_neighborhood,Percent white,0.33,race,Race and ethnicity,map,.0%,5,10
+Quinnipiac Meadows,1_neighborhood,Percent white,0.259,race,Race and ethnicity,map,.0%,5,10
+West River,1_neighborhood,Percent white,0.143,race,Race and ethnicity,map,.0%,5,10
+West Rock,1_neighborhood,Percent white,0.46,race,Race and ethnicity,map,.0%,5,10
+Westville,1_neighborhood,Percent white,0.569,race,Race and ethnicity,map,.0%,5,10
+Wooster Square/Mill River,1_neighborhood,Percent white,0.474,race,Race and ethnicity,map,.0%,5,10
+Greater New Haven,3_region,Black population,71020,race,Race and ethnicity,table,",",6,11
+New Haven,2_city,Black population,42970,race,Race and ethnicity,table,",",6,11
+Amity,1_neighborhood,Black population,2716,race,Race and ethnicity,table,",",6,11
+Annex,1_neighborhood,Black population,1401,race,Race and ethnicity,table,",",6,11
+Beaver Hills,1_neighborhood,Black population,3374,race,Race and ethnicity,table,",",6,11
+Dixwell,1_neighborhood,Black population,3272,race,Race and ethnicity,table,",",6,11
+Downtown,1_neighborhood,Black population,1216,race,Race and ethnicity,table,",",6,11
+Dwight,1_neighborhood,Black population,1724,race,Race and ethnicity,table,",",6,11
+East Rock,1_neighborhood,Black population,592,race,Race and ethnicity,table,",",6,11
+East Shore,1_neighborhood,Black population,823,race,Race and ethnicity,table,",",6,11
+Edgewood,1_neighborhood,Black population,2604,race,Race and ethnicity,table,",",6,11
+Fair Haven,1_neighborhood,Black population,2791,race,Race and ethnicity,table,",",6,11
+Fair Haven Heights,1_neighborhood,Black population,1210,race,Race and ethnicity,table,",",6,11
+Hill,1_neighborhood,Black population,6244,race,Race and ethnicity,table,",",6,11
+Newhallville,1_neighborhood,Black population,4843,race,Race and ethnicity,table,",",6,11
+Prospect Hill,1_neighborhood,Black population,1049,race,Race and ethnicity,table,",",6,11
+Quinnipiac Meadows,1_neighborhood,Black population,2551,race,Race and ethnicity,table,",",6,11
+West River,1_neighborhood,Black population,1905,race,Race and ethnicity,table,",",6,11
+West Rock,1_neighborhood,Black population,1591,race,Race and ethnicity,table,",",6,11
+Westville,1_neighborhood,Black population,2314,race,Race and ethnicity,table,",",6,11
+Wooster Square/Mill River,1_neighborhood,Black population,751,race,Race and ethnicity,table,",",6,11
+Greater New Haven,3_region,Percent black,0.153,race,Race and ethnicity,map,.0%,7,12
+New Haven,2_city,Percent black,0.33,race,Race and ethnicity,map,.0%,7,12
+Amity,1_neighborhood,Percent black,0.546,race,Race and ethnicity,map,.0%,7,12
+Annex,1_neighborhood,Percent black,0.21,race,Race and ethnicity,map,.0%,7,12
+Beaver Hills,1_neighborhood,Percent black,0.657,race,Race and ethnicity,map,.0%,7,12
+Dixwell,1_neighborhood,Percent black,0.659,race,Race and ethnicity,map,.0%,7,12
+Downtown,1_neighborhood,Percent black,0.111,race,Race and ethnicity,map,.0%,7,12
+Dwight,1_neighborhood,Percent black,0.392,race,Race and ethnicity,map,.0%,7,12
+East Rock,1_neighborhood,Percent black,0.069,race,Race and ethnicity,map,.0%,7,12
+East Shore,1_neighborhood,Percent black,0.18,race,Race and ethnicity,map,.0%,7,12
+Edgewood,1_neighborhood,Percent black,0.593,race,Race and ethnicity,map,.0%,7,12
+Fair Haven,1_neighborhood,Percent black,0.161,race,Race and ethnicity,map,.0%,7,12
+Fair Haven Heights,1_neighborhood,Percent black,0.182,race,Race and ethnicity,map,.0%,7,12
+Hill,1_neighborhood,Percent black,0.385,race,Race and ethnicity,map,.0%,7,12
+Newhallville,1_neighborhood,Percent black,0.859,race,Race and ethnicity,map,.0%,7,12
+Prospect Hill,1_neighborhood,Percent black,0.248,race,Race and ethnicity,map,.0%,7,12
+Quinnipiac Meadows,1_neighborhood,Percent black,0.424,race,Race and ethnicity,map,.0%,7,12
+West River,1_neighborhood,Percent black,0.54,race,Race and ethnicity,map,.0%,7,12
+West Rock,1_neighborhood,Percent black,0.36,race,Race and ethnicity,map,.0%,7,12
+Westville,1_neighborhood,Percent black,0.271,race,Race and ethnicity,map,.0%,7,12
+Wooster Square/Mill River,1_neighborhood,Percent black,0.23,race,Race and ethnicity,map,.0%,7,12
+Greater New Haven,3_region,Other race population,33461,race,Race and ethnicity,table,",",8,13
+New Haven,2_city,Other race population,10040,race,Race and ethnicity,table,",",8,13
+Amity,1_neighborhood,Other race population,495,race,Race and ethnicity,table,",",8,13
+Annex,1_neighborhood,Other race population,288,race,Race and ethnicity,table,",",8,13
+Beaver Hills,1_neighborhood,Other race population,287,race,Race and ethnicity,table,",",8,13
+Dixwell,1_neighborhood,Other race population,238,race,Race and ethnicity,table,",",8,13
+Downtown,1_neighborhood,Other race population,2376,race,Race and ethnicity,table,",",8,13
+Dwight,1_neighborhood,Other race population,485,race,Race and ethnicity,table,",",8,13
+East Rock,1_neighborhood,Other race population,1299,race,Race and ethnicity,table,",",8,13
+East Shore,1_neighborhood,Other race population,244,race,Race and ethnicity,table,",",8,13
+Edgewood,1_neighborhood,Other race population,329,race,Race and ethnicity,table,",",8,13
+Fair Haven,1_neighborhood,Other race population,455,race,Race and ethnicity,table,",",8,13
+Fair Haven Heights,1_neighborhood,Other race population,182,race,Race and ethnicity,table,",",8,13
+Hill,1_neighborhood,Other race population,607,race,Race and ethnicity,table,",",8,13
+Newhallville,1_neighborhood,Other race population,109,race,Race and ethnicity,table,",",8,13
+Prospect Hill,1_neighborhood,Other race population,1076,race,Race and ethnicity,table,",",8,13
+Quinnipiac Meadows,1_neighborhood,Other race population,308,race,Race and ethnicity,table,",",8,13
+West River,1_neighborhood,Other race population,228,race,Race and ethnicity,table,",",8,13
+West Rock,1_neighborhood,Other race population,250,race,Race and ethnicity,table,",",8,13
+Westville,1_neighborhood,Other race population,550,race,Race and ethnicity,table,",",8,13
+Wooster Square/Mill River,1_neighborhood,Other race population,234,race,Race and ethnicity,table,",",8,13
+Greater New Haven,3_region,Percent other race,0.072,race,Race and ethnicity,map,.0%,9,14
+New Haven,2_city,Percent other race,0.077,race,Race and ethnicity,map,.0%,9,14
+Amity,1_neighborhood,Percent other race,0.1,race,Race and ethnicity,map,.0%,9,14
+Annex,1_neighborhood,Percent other race,0.043,race,Race and ethnicity,map,.0%,9,14
+Beaver Hills,1_neighborhood,Percent other race,0.056,race,Race and ethnicity,map,.0%,9,14
+Dixwell,1_neighborhood,Percent other race,0.048,race,Race and ethnicity,map,.0%,9,14
+Downtown,1_neighborhood,Percent other race,0.217,race,Race and ethnicity,map,.0%,9,14
+Dwight,1_neighborhood,Percent other race,0.11,race,Race and ethnicity,map,.0%,9,14
+East Rock,1_neighborhood,Percent other race,0.152,race,Race and ethnicity,map,.0%,9,14
+East Shore,1_neighborhood,Percent other race,0.053,race,Race and ethnicity,map,.0%,9,14
+Edgewood,1_neighborhood,Percent other race,0.075,race,Race and ethnicity,map,.0%,9,14
+Fair Haven,1_neighborhood,Percent other race,0.026,race,Race and ethnicity,map,.0%,9,14
+Fair Haven Heights,1_neighborhood,Percent other race,0.027,race,Race and ethnicity,map,.0%,9,14
+Hill,1_neighborhood,Percent other race,0.037,race,Race and ethnicity,map,.0%,9,14
+Newhallville,1_neighborhood,Percent other race,0.019,race,Race and ethnicity,map,.0%,9,14
+Prospect Hill,1_neighborhood,Percent other race,0.255,race,Race and ethnicity,map,.0%,9,14
+Quinnipiac Meadows,1_neighborhood,Percent other race,0.051,race,Race and ethnicity,map,.0%,9,14
+West River,1_neighborhood,Percent other race,0.065,race,Race and ethnicity,map,.0%,9,14
+West Rock,1_neighborhood,Percent other race,0.057,race,Race and ethnicity,map,.0%,9,14
+Westville,1_neighborhood,Percent other race,0.064,race,Race and ethnicity,map,.0%,9,14
+Wooster Square/Mill River,1_neighborhood,Percent other race,0.072,race,Race and ethnicity,map,.0%,9,14
+Greater New Haven,3_region,Total households,177415,households,Households,table,",",1,15
+New Haven,2_city,Total households,50024,households,Households,table,",",1,15
+Amity,1_neighborhood,Total households,1830,households,Households,table,",",1,15
+Annex,1_neighborhood,Total households,2432,households,Households,table,",",1,15
+Beaver Hills,1_neighborhood,Total households,2012,households,Households,table,",",1,15
+Dixwell,1_neighborhood,Total households,1808,households,Households,table,",",1,15
+Downtown,1_neighborhood,Total households,4342,households,Households,table,",",1,15
+Dwight,1_neighborhood,Total households,1845,households,Households,table,",",1,15
+East Rock,1_neighborhood,Total households,3886,households,Households,table,",",1,15
+East Shore,1_neighborhood,Total households,2010,households,Households,table,",",1,15
+Edgewood,1_neighborhood,Total households,1868,households,Households,table,",",1,15
+Fair Haven,1_neighborhood,Total households,5640,households,Households,table,",",1,15
+Fair Haven Heights,1_neighborhood,Total households,3219,households,Households,table,",",1,15
+Hill,1_neighborhood,Total households,5285,households,Households,table,",",1,15
+Newhallville,1_neighborhood,Total households,2492,households,Households,table,",",1,15
+Prospect Hill,1_neighborhood,Total households,1666,households,Households,table,",",1,15
+Quinnipiac Meadows,1_neighborhood,Total households,2129,households,Households,table,",",1,15
+West River,1_neighborhood,Total households,1407,households,Households,table,",",1,15
+West Rock,1_neighborhood,Total households,915,households,Households,table,",",1,15
+Westville,1_neighborhood,Total households,3659,households,Households,table,",",1,15
+Wooster Square/Mill River,1_neighborhood,Total households,1578,households,Households,table,",",1,15
+Greater New Haven,3_region,Owner-occupied households,106876,households,Households,table,",",2,16
+New Haven,2_city,Owner-occupied households,14092,households,Households,table,",",2,16
+Amity,1_neighborhood,Owner-occupied households,839,households,Households,table,",",2,16
+Annex,1_neighborhood,Owner-occupied households,896,households,Households,table,",",2,16
+Beaver Hills,1_neighborhood,Owner-occupied households,916,households,Households,table,",",2,16
+Dixwell,1_neighborhood,Owner-occupied households,288,households,Households,table,",",2,16
+Downtown,1_neighborhood,Owner-occupied households,408,households,Households,table,",",2,16
+Dwight,1_neighborhood,Owner-occupied households,245,households,Households,table,",",2,16
+East Rock,1_neighborhood,Owner-occupied households,1056,households,Households,table,",",2,16
+East Shore,1_neighborhood,Owner-occupied households,1402,households,Households,table,",",2,16
+Edgewood,1_neighborhood,Owner-occupied households,410,households,Households,table,",",2,16
+Fair Haven,1_neighborhood,Owner-occupied households,1092,households,Households,table,",",2,16
+Fair Haven Heights,1_neighborhood,Owner-occupied households,875,households,Households,table,",",2,16
+Hill,1_neighborhood,Owner-occupied households,1212,households,Households,table,",",2,16
+Newhallville,1_neighborhood,Owner-occupied households,775,households,Households,table,",",2,16
+Prospect Hill,1_neighborhood,Owner-occupied households,445,households,Households,table,",",2,16
+Quinnipiac Meadows,1_neighborhood,Owner-occupied households,858,households,Households,table,",",2,16
+West River,1_neighborhood,Owner-occupied households,255,households,Households,table,",",2,16
+West Rock,1_neighborhood,Owner-occupied households,95,households,Households,table,",",2,16
+Westville,1_neighborhood,Owner-occupied households,1657,households,Households,table,",",2,16
+Wooster Square/Mill River,1_neighborhood,Owner-occupied households,368,households,Households,table,",",2,16
+Greater New Haven,3_region,Homeownership rate,0.602,households,Households,map,.0%,3,17
+New Haven,2_city,Homeownership rate,0.282,households,Households,map,.0%,3,17
+Amity,1_neighborhood,Homeownership rate,0.458,households,Households,map,.0%,3,17
+Annex,1_neighborhood,Homeownership rate,0.368,households,Households,map,.0%,3,17
+Beaver Hills,1_neighborhood,Homeownership rate,0.455,households,Households,map,.0%,3,17
+Dixwell,1_neighborhood,Homeownership rate,0.159,households,Households,map,.0%,3,17
+Downtown,1_neighborhood,Homeownership rate,0.094,households,Households,map,.0%,3,17
+Dwight,1_neighborhood,Homeownership rate,0.133,households,Households,map,.0%,3,17
+East Rock,1_neighborhood,Homeownership rate,0.272,households,Households,map,.0%,3,17
+East Shore,1_neighborhood,Homeownership rate,0.698,households,Households,map,.0%,3,17
+Edgewood,1_neighborhood,Homeownership rate,0.219,households,Households,map,.0%,3,17
+Fair Haven,1_neighborhood,Homeownership rate,0.194,households,Households,map,.0%,3,17
+Fair Haven Heights,1_neighborhood,Homeownership rate,0.272,households,Households,map,.0%,3,17
+Hill,1_neighborhood,Homeownership rate,0.229,households,Households,map,.0%,3,17
+Newhallville,1_neighborhood,Homeownership rate,0.311,households,Households,map,.0%,3,17
+Prospect Hill,1_neighborhood,Homeownership rate,0.267,households,Households,map,.0%,3,17
+Quinnipiac Meadows,1_neighborhood,Homeownership rate,0.403,households,Households,map,.0%,3,17
+West River,1_neighborhood,Homeownership rate,0.181,households,Households,map,.0%,3,17
+West Rock,1_neighborhood,Homeownership rate,0.104,households,Households,map,.0%,3,17
+Westville,1_neighborhood,Homeownership rate,0.453,households,Households,map,.0%,3,17
+Wooster Square/Mill River,1_neighborhood,Homeownership rate,0.233,households,Households,map,.0%,3,17
+Greater New Haven,3_region,Poverty status known,445981,income,Income,table,",",1,18
+New Haven,2_city,Poverty status known,121847,income,Income,table,",",1,18
+Amity,1_neighborhood,Poverty status known,4970,income,Income,table,",",1,18
+Annex,1_neighborhood,Poverty status known,6610,income,Income,table,",",1,18
+Beaver Hills,1_neighborhood,Poverty status known,5135,income,Income,table,",",1,18
+Dixwell,1_neighborhood,Poverty status known,4145,income,Income,table,",",1,18
+Downtown,1_neighborhood,Poverty status known,6848,income,Income,table,",",1,18
+Dwight,1_neighborhood,Poverty status known,4403,income,Income,table,",",1,18
+East Rock,1_neighborhood,Poverty status known,8542,income,Income,table,",",1,18
+East Shore,1_neighborhood,Poverty status known,4557,income,Income,table,",",1,18
+Edgewood,1_neighborhood,Poverty status known,4368,income,Income,table,",",1,18
+Fair Haven,1_neighborhood,Poverty status known,17146,income,Income,table,",",1,18
+Fair Haven Heights,1_neighborhood,Poverty status known,6493,income,Income,table,",",1,18
+Hill,1_neighborhood,Poverty status known,15664,income,Income,table,",",1,18
+Newhallville,1_neighborhood,Poverty status known,5639,income,Income,table,",",1,18
+Prospect Hill,1_neighborhood,Poverty status known,3920,income,Income,table,",",1,18
+Quinnipiac Meadows,1_neighborhood,Poverty status known,5963,income,Income,table,",",1,18
+West River,1_neighborhood,Poverty status known,3349,income,Income,table,",",1,18
+West Rock,1_neighborhood,Poverty status known,2343,income,Income,table,",",1,18
+Westville,1_neighborhood,Poverty status known,8524,income,Income,table,",",1,18
+Wooster Square/Mill River,1_neighborhood,Poverty status known,3228,income,Income,table,",",1,18
+Greater New Haven,3_region,Population in poverty,56312,income,Income,table,",",2,19
+New Haven,2_city,Population in poverty,31848,income,Income,table,",",2,19
+Amity,1_neighborhood,Population in poverty,1033,income,Income,table,",",2,19
+Annex,1_neighborhood,Population in poverty,1728,income,Income,table,",",2,19
+Beaver Hills,1_neighborhood,Population in poverty,969,income,Income,table,",",2,19
+Dixwell,1_neighborhood,Population in poverty,1264,income,Income,table,",",2,19
+Downtown,1_neighborhood,Population in poverty,1518,income,Income,table,",",2,19
+Dwight,1_neighborhood,Population in poverty,1614,income,Income,table,",",2,19
+East Rock,1_neighborhood,Population in poverty,1302,income,Income,table,",",2,19
+East Shore,1_neighborhood,Population in poverty,160,income,Income,table,",",2,19
+Edgewood,1_neighborhood,Population in poverty,1003,income,Income,table,",",2,19
+Fair Haven,1_neighborhood,Population in poverty,5702,income,Income,table,",",2,19
+Fair Haven Heights,1_neighborhood,Population in poverty,1425,income,Income,table,",",2,19
+Hill,1_neighborhood,Population in poverty,6741,income,Income,table,",",2,19
+Newhallville,1_neighborhood,Population in poverty,1724,income,Income,table,",",2,19
+Prospect Hill,1_neighborhood,Population in poverty,804,income,Income,table,",",2,19
+Quinnipiac Meadows,1_neighborhood,Population in poverty,1224,income,Income,table,",",2,19
+West River,1_neighborhood,Population in poverty,1175,income,Income,table,",",2,19
+West Rock,1_neighborhood,Population in poverty,835,income,Income,table,",",2,19
+Westville,1_neighborhood,Population in poverty,709,income,Income,table,",",2,19
+Wooster Square/Mill River,1_neighborhood,Population in poverty,918,income,Income,table,",",2,19
+Greater New Haven,3_region,Poverty rate,0.126,income,Income,map,.0%,3,20
+New Haven,2_city,Poverty rate,0.261,income,Income,map,.0%,3,20
+Amity,1_neighborhood,Poverty rate,0.208,income,Income,map,.0%,3,20
+Annex,1_neighborhood,Poverty rate,0.261,income,Income,map,.0%,3,20
+Beaver Hills,1_neighborhood,Poverty rate,0.189,income,Income,map,.0%,3,20
+Dixwell,1_neighborhood,Poverty rate,0.305,income,Income,map,.0%,3,20
+Downtown,1_neighborhood,Poverty rate,0.222,income,Income,map,.0%,3,20
+Dwight,1_neighborhood,Poverty rate,0.367,income,Income,map,.0%,3,20
+East Rock,1_neighborhood,Poverty rate,0.152,income,Income,map,.0%,3,20
+East Shore,1_neighborhood,Poverty rate,0.035,income,Income,map,.0%,3,20
+Edgewood,1_neighborhood,Poverty rate,0.23,income,Income,map,.0%,3,20
+Fair Haven,1_neighborhood,Poverty rate,0.333,income,Income,map,.0%,3,20
+Fair Haven Heights,1_neighborhood,Poverty rate,0.219,income,Income,map,.0%,3,20
+Hill,1_neighborhood,Poverty rate,0.43,income,Income,map,.0%,3,20
+Newhallville,1_neighborhood,Poverty rate,0.306,income,Income,map,.0%,3,20
+Prospect Hill,1_neighborhood,Poverty rate,0.205,income,Income,map,.0%,3,20
+Quinnipiac Meadows,1_neighborhood,Poverty rate,0.205,income,Income,map,.0%,3,20
+West River,1_neighborhood,Poverty rate,0.351,income,Income,map,.0%,3,20
+West Rock,1_neighborhood,Poverty rate,0.356,income,Income,map,.0%,3,20
+Westville,1_neighborhood,Poverty rate,0.083,income,Income,map,.0%,3,20
+Wooster Square/Mill River,1_neighborhood,Poverty rate,0.284,income,Income,map,.0%,3,20
+Greater New Haven,3_region,Low-income population,119297,income,Income,table,",",4,21
+New Haven,2_city,Low-income population,59454,income,Income,table,",",4,21
+Amity,1_neighborhood,Low-income population,2140,income,Income,table,",",4,21
+Annex,1_neighborhood,Low-income population,2984,income,Income,table,",",4,21
+Beaver Hills,1_neighborhood,Low-income population,2277,income,Income,table,",",4,21
+Dixwell,1_neighborhood,Low-income population,2348,income,Income,table,",",4,21
+Downtown,1_neighborhood,Low-income population,2488,income,Income,table,",",4,21
+Dwight,1_neighborhood,Low-income population,3048,income,Income,table,",",4,21
+East Rock,1_neighborhood,Low-income population,2508,income,Income,table,",",4,21
+East Shore,1_neighborhood,Low-income population,595,income,Income,table,",",4,21
+Edgewood,1_neighborhood,Low-income population,2073,income,Income,table,",",4,21
+Fair Haven,1_neighborhood,Low-income population,10899,income,Income,table,",",4,21
+Fair Haven Heights,1_neighborhood,Low-income population,3295,income,Income,table,",",4,21
+Hill,1_neighborhood,Low-income population,11020,income,Income,table,",",4,21
+Newhallville,1_neighborhood,Low-income population,3482,income,Income,table,",",4,21
+Prospect Hill,1_neighborhood,Low-income population,1411,income,Income,table,",",4,21
+Quinnipiac Meadows,1_neighborhood,Low-income population,2260,income,Income,table,",",4,21
+West River,1_neighborhood,Low-income population,2081,income,Income,table,",",4,21
+West Rock,1_neighborhood,Low-income population,1395,income,Income,table,",",4,21
+Westville,1_neighborhood,Low-income population,1546,income,Income,table,",",4,21
+Wooster Square/Mill River,1_neighborhood,Low-income population,1604,income,Income,table,",",4,21
+Greater New Haven,3_region,Low-income rate,0.267,income,Income,map,.0%,5,22
+New Haven,2_city,Low-income rate,0.488,income,Income,map,.0%,5,22
+Amity,1_neighborhood,Low-income rate,0.431,income,Income,map,.0%,5,22
+Annex,1_neighborhood,Low-income rate,0.451,income,Income,map,.0%,5,22
+Beaver Hills,1_neighborhood,Low-income rate,0.443,income,Income,map,.0%,5,22
+Dixwell,1_neighborhood,Low-income rate,0.566,income,Income,map,.0%,5,22
+Downtown,1_neighborhood,Low-income rate,0.363,income,Income,map,.0%,5,22
+Dwight,1_neighborhood,Low-income rate,0.692,income,Income,map,.0%,5,22
+East Rock,1_neighborhood,Low-income rate,0.294,income,Income,map,.0%,5,22
+East Shore,1_neighborhood,Low-income rate,0.131,income,Income,map,.0%,5,22
+Edgewood,1_neighborhood,Low-income rate,0.475,income,Income,map,.0%,5,22
+Fair Haven,1_neighborhood,Low-income rate,0.636,income,Income,map,.0%,5,22
+Fair Haven Heights,1_neighborhood,Low-income rate,0.507,income,Income,map,.0%,5,22
+Hill,1_neighborhood,Low-income rate,0.704,income,Income,map,.0%,5,22
+Newhallville,1_neighborhood,Low-income rate,0.617,income,Income,map,.0%,5,22
+Prospect Hill,1_neighborhood,Low-income rate,0.36,income,Income,map,.0%,5,22
+Quinnipiac Meadows,1_neighborhood,Low-income rate,0.379,income,Income,map,.0%,5,22
+West River,1_neighborhood,Low-income rate,0.621,income,Income,map,.0%,5,22
+West Rock,1_neighborhood,Low-income rate,0.595,income,Income,map,.0%,5,22
+Westville,1_neighborhood,Low-income rate,0.181,income,Income,map,.0%,5,22
+Wooster Square/Mill River,1_neighborhood,Low-income rate,0.497,income,Income,map,.0%,5,22
+Greater New Haven,3_region,High-income population,166554,income,Income,table,",",6,23
+New Haven,2_city,High-income population,22518,income,Income,table,",",6,23
+Amity,1_neighborhood,High-income population,1067,income,Income,table,",",6,23
+Annex,1_neighborhood,High-income population,914,income,Income,table,",",6,23
+Beaver Hills,1_neighborhood,High-income population,1088,income,Income,table,",",6,23
+Dixwell,1_neighborhood,High-income population,526,income,Income,table,",",6,23
+Downtown,1_neighborhood,High-income population,2110,income,Income,table,",",6,23
+Dwight,1_neighborhood,High-income population,464,income,Income,table,",",6,23
+East Rock,1_neighborhood,High-income population,3282,income,Income,table,",",6,23
+East Shore,1_neighborhood,High-income population,1801,income,Income,table,",",6,23
+Edgewood,1_neighborhood,High-income population,774,income,Income,table,",",6,23
+Fair Haven,1_neighborhood,High-income population,1071,income,Income,table,",",6,23
+Fair Haven Heights,1_neighborhood,High-income population,1036,income,Income,table,",",6,23
+Hill,1_neighborhood,High-income population,1172,income,Income,table,",",6,23
+Newhallville,1_neighborhood,High-income population,293,income,Income,table,",",6,23
+Prospect Hill,1_neighborhood,High-income population,1053,income,Income,table,",",6,23
+Quinnipiac Meadows,1_neighborhood,High-income population,1058,income,Income,table,",",6,23
+West River,1_neighborhood,High-income population,424,income,Income,table,",",6,23
+West Rock,1_neighborhood,High-income population,701,income,Income,table,",",6,23
+Westville,1_neighborhood,High-income population,2943,income,Income,table,",",6,23
+Wooster Square/Mill River,1_neighborhood,High-income population,741,income,Income,table,",",6,23
+Greater New Haven,3_region,High-income rate,0.373,income,Income,map,.0%,7,24
+New Haven,2_city,High-income rate,0.185,income,Income,map,.0%,7,24
+Amity,1_neighborhood,High-income rate,0.215,income,Income,map,.0%,7,24
+Annex,1_neighborhood,High-income rate,0.138,income,Income,map,.0%,7,24
+Beaver Hills,1_neighborhood,High-income rate,0.239,income,Income,map,.0%,7,24
+Dixwell,1_neighborhood,High-income rate,0.127,income,Income,map,.0%,7,24
+Downtown,1_neighborhood,High-income rate,0.306,income,Income,map,.0%,7,24
+Dwight,1_neighborhood,High-income rate,0.105,income,Income,map,.0%,7,24
+East Rock,1_neighborhood,High-income rate,0.379,income,Income,map,.0%,7,24
+East Shore,1_neighborhood,High-income rate,0.395,income,Income,map,.0%,7,24
+Edgewood,1_neighborhood,High-income rate,0.177,income,Income,map,.0%,7,24
+Fair Haven,1_neighborhood,High-income rate,0.063,income,Income,map,.0%,7,24
+Fair Haven Heights,1_neighborhood,High-income rate,0.16,income,Income,map,.0%,7,24
+Hill,1_neighborhood,High-income rate,0.075,income,Income,map,.0%,7,24
+Newhallville,1_neighborhood,High-income rate,0.052,income,Income,map,.0%,7,24
+Prospect Hill,1_neighborhood,High-income rate,0.269,income,Income,map,.0%,7,24
+Quinnipiac Meadows,1_neighborhood,High-income rate,0.177,income,Income,map,.0%,7,24
+West River,1_neighborhood,High-income rate,0.127,income,Income,map,.0%,7,24
+West Rock,1_neighborhood,High-income rate,0.162,income,Income,map,.0%,7,24
+Westville,1_neighborhood,High-income rate,0.414,income,Income,map,.0%,7,24
+Wooster Square/Mill River,1_neighborhood,High-income rate,0.23,income,Income,map,.0%,7,24
+Greater New Haven,3_region,Total population,464596,immigration,Immigration,table,",",1,25
+New Haven,2_city,Total population,130405,immigration,Immigration,table,",",1,25
+Amity,1_neighborhood,Total population,4970,immigration,Immigration,table,",",1,25
+Annex,1_neighborhood,Total population,6677,immigration,Immigration,table,",",1,25
+Beaver Hills,1_neighborhood,Total population,5135,immigration,Immigration,table,",",1,25
+Dixwell,1_neighborhood,Total population,4962,immigration,Immigration,table,",",1,25
+Downtown,1_neighborhood,Total population,10935,immigration,Immigration,table,",",1,25
+Dwight,1_neighborhood,Total population,4403,immigration,Immigration,table,",",1,25
+East Rock,1_neighborhood,Total population,8567,immigration,Immigration,table,",",1,25
+East Shore,1_neighborhood,Total population,4567,immigration,Immigration,table,",",1,25
+Edgewood,1_neighborhood,Total population,4391,immigration,Immigration,table,",",1,25
+Fair Haven,1_neighborhood,Total population,17305,immigration,Immigration,table,",",1,25
+Fair Haven Heights,1_neighborhood,Total population,6640,immigration,Immigration,table,",",1,25
+Hill,1_neighborhood,Total population,16220,immigration,Immigration,table,",",1,25
+Newhallville,1_neighborhood,Total population,5639,immigration,Immigration,table,",",1,25
+Prospect Hill,1_neighborhood,Total population,4226,immigration,Immigration,table,",",1,25
+Quinnipiac Meadows,1_neighborhood,Total population,6014,immigration,Immigration,table,",",1,25
+West River,1_neighborhood,Total population,3527,immigration,Immigration,table,",",1,25
+West Rock,1_neighborhood,Total population,4415,immigration,Immigration,table,",",1,25
+Westville,1_neighborhood,Total population,8548,immigration,Immigration,table,",",1,25
+Wooster Square/Mill River,1_neighborhood,Total population,3264,immigration,Immigration,table,",",1,25
+Greater New Haven,3_region,Foreign-born population,58652,immigration,Immigration,table,",",2,26
+New Haven,2_city,Foreign-born population,21167,immigration,Immigration,table,",",2,26
+Amity,1_neighborhood,Foreign-born population,631,immigration,Immigration,table,",",2,26
+Annex,1_neighborhood,Foreign-born population,1627,immigration,Immigration,table,",",2,26
+Beaver Hills,1_neighborhood,Foreign-born population,399,immigration,Immigration,table,",",2,26
+Dixwell,1_neighborhood,Foreign-born population,368,immigration,Immigration,table,",",2,26
+Downtown,1_neighborhood,Foreign-born population,2500,immigration,Immigration,table,",",2,26
+Dwight,1_neighborhood,Foreign-born population,862,immigration,Immigration,table,",",2,26
+East Rock,1_neighborhood,Foreign-born population,2499,immigration,Immigration,table,",",2,26
+East Shore,1_neighborhood,Foreign-born population,304,immigration,Immigration,table,",",2,26
+Edgewood,1_neighborhood,Foreign-born population,413,immigration,Immigration,table,",",2,26
+Fair Haven,1_neighborhood,Foreign-born population,3257,immigration,Immigration,table,",",2,26
+Fair Haven Heights,1_neighborhood,Foreign-born population,722,immigration,Immigration,table,",",2,26
+Hill,1_neighborhood,Foreign-born population,2372,immigration,Immigration,table,",",2,26
+Newhallville,1_neighborhood,Foreign-born population,694,immigration,Immigration,table,",",2,26
+Prospect Hill,1_neighborhood,Foreign-born population,1027,immigration,Immigration,table,",",2,26
+Quinnipiac Meadows,1_neighborhood,Foreign-born population,954,immigration,Immigration,table,",",2,26
+West River,1_neighborhood,Foreign-born population,431,immigration,Immigration,table,",",2,26
+West Rock,1_neighborhood,Foreign-born population,799,immigration,Immigration,table,",",2,26
+Westville,1_neighborhood,Foreign-born population,832,immigration,Immigration,table,",",2,26
+Wooster Square/Mill River,1_neighborhood,Foreign-born population,476,immigration,Immigration,table,",",2,26
+Greater New Haven,3_region,Percent foreign-born,0.126,immigration,Immigration,map,.0%,3,27
+New Haven,2_city,Percent foreign-born,0.162,immigration,Immigration,map,.0%,3,27
+Amity,1_neighborhood,Percent foreign-born,0.127,immigration,Immigration,map,.0%,3,27
+Annex,1_neighborhood,Percent foreign-born,0.244,immigration,Immigration,map,.0%,3,27
+Beaver Hills,1_neighborhood,Percent foreign-born,0.087,immigration,Immigration,map,.0%,3,27
+Dixwell,1_neighborhood,Percent foreign-born,0.074,immigration,Immigration,map,.0%,3,27
+Downtown,1_neighborhood,Percent foreign-born,0.227,immigration,Immigration,map,.0%,3,27
+Dwight,1_neighborhood,Percent foreign-born,0.196,immigration,Immigration,map,.0%,3,27
+East Rock,1_neighborhood,Percent foreign-born,0.288,immigration,Immigration,map,.0%,3,27
+East Shore,1_neighborhood,Percent foreign-born,0.067,immigration,Immigration,map,.0%,3,27
+Edgewood,1_neighborhood,Percent foreign-born,0.094,immigration,Immigration,map,.0%,3,27
+Fair Haven,1_neighborhood,Percent foreign-born,0.19,immigration,Immigration,map,.0%,3,27
+Fair Haven Heights,1_neighborhood,Percent foreign-born,0.109,immigration,Immigration,map,.0%,3,27
+Hill,1_neighborhood,Percent foreign-born,0.146,immigration,Immigration,map,.0%,3,27
+Newhallville,1_neighborhood,Percent foreign-born,0.123,immigration,Immigration,map,.0%,3,27
+Prospect Hill,1_neighborhood,Percent foreign-born,0.243,immigration,Immigration,map,.0%,3,27
+Quinnipiac Meadows,1_neighborhood,Percent foreign-born,0.159,immigration,Immigration,map,.0%,3,27
+West River,1_neighborhood,Percent foreign-born,0.122,immigration,Immigration,map,.0%,3,27
+West Rock,1_neighborhood,Percent foreign-born,0.125,immigration,Immigration,map,.0%,3,27
+Westville,1_neighborhood,Percent foreign-born,0.117,immigration,Immigration,map,.0%,3,27
+Wooster Square/Mill River,1_neighborhood,Percent foreign-born,0.146,immigration,Immigration,map,.0%,3,27
+Greater New Haven,3_region,"Under 18, poverty status known",93489,income_kids,Income by age: children,table,",",1,28
+New Haven,2_city,"Under 18, poverty status known",28364,income_kids,Income by age: children,table,",",1,28
+Amity,1_neighborhood,"Under 18, poverty status known",1327,income_kids,Income by age: children,table,",",1,28
+Annex,1_neighborhood,"Under 18, poverty status known",1490,income_kids,Income by age: children,table,",",1,28
+Beaver Hills,1_neighborhood,"Under 18, poverty status known",1232,income_kids,Income by age: children,table,",",1,28
+Dixwell,1_neighborhood,"Under 18, poverty status known",1027,income_kids,Income by age: children,table,",",1,28
+Downtown,1_neighborhood,"Under 18, poverty status known",354,income_kids,Income by age: children,table,",",1,28
+Dwight,1_neighborhood,"Under 18, poverty status known",915,income_kids,Income by age: children,table,",",1,28
+East Rock,1_neighborhood,"Under 18, poverty status known",1241,income_kids,Income by age: children,table,",",1,28
+East Shore,1_neighborhood,"Under 18, poverty status known",956,income_kids,Income by age: children,table,",",1,28
+Edgewood,1_neighborhood,"Under 18, poverty status known",1085,income_kids,Income by age: children,table,",",1,28
+Fair Haven,1_neighborhood,"Under 18, poverty status known",5035,income_kids,Income by age: children,table,",",1,28
+Fair Haven Heights,1_neighborhood,"Under 18, poverty status known",1126,income_kids,Income by age: children,table,",",1,28
+Hill,1_neighborhood,"Under 18, poverty status known",4893,income_kids,Income by age: children,table,",",1,28
+Newhallville,1_neighborhood,"Under 18, poverty status known",1624,income_kids,Income by age: children,table,",",1,28
+Prospect Hill,1_neighborhood,"Under 18, poverty status known",987,income_kids,Income by age: children,table,",",1,28
+Quinnipiac Meadows,1_neighborhood,"Under 18, poverty status known",1243,income_kids,Income by age: children,table,",",1,28
+West River,1_neighborhood,"Under 18, poverty status known",831,income_kids,Income by age: children,table,",",1,28
+West Rock,1_neighborhood,"Under 18, poverty status known",1003,income_kids,Income by age: children,table,",",1,28
+Westville,1_neighborhood,"Under 18, poverty status known",1528,income_kids,Income by age: children,table,",",1,28
+Wooster Square/Mill River,1_neighborhood,"Under 18, poverty status known",467,income_kids,Income by age: children,table,",",1,28
+Greater New Haven,3_region,Children in poverty,16556,income_kids,Income by age: children,table,",",2,29
+New Haven,2_city,Children in poverty,10344,income_kids,Income by age: children,table,",",2,29
+Amity,1_neighborhood,Children in poverty,397,income_kids,Income by age: children,table,",",2,29
+Annex,1_neighborhood,Children in poverty,635,income_kids,Income by age: children,table,",",2,29
+Beaver Hills,1_neighborhood,Children in poverty,252,income_kids,Income by age: children,table,",",2,29
+Dixwell,1_neighborhood,Children in poverty,501,income_kids,Income by age: children,table,",",2,29
+Downtown,1_neighborhood,Children in poverty,124,income_kids,Income by age: children,table,",",2,29
+Dwight,1_neighborhood,Children in poverty,341,income_kids,Income by age: children,table,",",2,29
+East Rock,1_neighborhood,Children in poverty,184,income_kids,Income by age: children,table,",",2,29
+East Shore,1_neighborhood,Children in poverty,32,income_kids,Income by age: children,table,",",2,29
+Edgewood,1_neighborhood,Children in poverty,204,income_kids,Income by age: children,table,",",2,29
+Fair Haven,1_neighborhood,Children in poverty,2172,income_kids,Income by age: children,table,",",2,29
+Fair Haven Heights,1_neighborhood,Children in poverty,312,income_kids,Income by age: children,table,",",2,29
+Hill,1_neighborhood,Children in poverty,2897,income_kids,Income by age: children,table,",",2,29
+Newhallville,1_neighborhood,Children in poverty,711,income_kids,Income by age: children,table,",",2,29
+Prospect Hill,1_neighborhood,Children in poverty,216,income_kids,Income by age: children,table,",",2,29
+Quinnipiac Meadows,1_neighborhood,Children in poverty,395,income_kids,Income by age: children,table,",",2,29
+West River,1_neighborhood,Children in poverty,279,income_kids,Income by age: children,table,",",2,29
+West Rock,1_neighborhood,Children in poverty,437,income_kids,Income by age: children,table,",",2,29
+Westville,1_neighborhood,Children in poverty,41,income_kids,Income by age: children,table,",",2,29
+Wooster Square/Mill River,1_neighborhood,Children in poverty,214,income_kids,Income by age: children,table,",",2,29
+Greater New Haven,3_region,Child poverty rate,0.177,income_kids,Income by age: children,map,.0%,3,30
+New Haven,2_city,Child poverty rate,0.365,income_kids,Income by age: children,map,.0%,3,30
+Amity,1_neighborhood,Child poverty rate,0.299,income_kids,Income by age: children,map,.0%,3,30
+Annex,1_neighborhood,Child poverty rate,0.426,income_kids,Income by age: children,map,.0%,3,30
+Beaver Hills,1_neighborhood,Child poverty rate,0.205,income_kids,Income by age: children,map,.0%,3,30
+Dixwell,1_neighborhood,Child poverty rate,0.488,income_kids,Income by age: children,map,.0%,3,30
+Downtown,1_neighborhood,Child poverty rate,0.35,income_kids,Income by age: children,map,.0%,3,30
+Dwight,1_neighborhood,Child poverty rate,0.373,income_kids,Income by age: children,map,.0%,3,30
+East Rock,1_neighborhood,Child poverty rate,0.148,income_kids,Income by age: children,map,.0%,3,30
+East Shore,1_neighborhood,Child poverty rate,0.033,income_kids,Income by age: children,map,.0%,3,30
+Edgewood,1_neighborhood,Child poverty rate,0.188,income_kids,Income by age: children,map,.0%,3,30
+Fair Haven,1_neighborhood,Child poverty rate,0.431,income_kids,Income by age: children,map,.0%,3,30
+Fair Haven Heights,1_neighborhood,Child poverty rate,0.277,income_kids,Income by age: children,map,.0%,3,30
+Hill,1_neighborhood,Child poverty rate,0.592,income_kids,Income by age: children,map,.0%,3,30
+Newhallville,1_neighborhood,Child poverty rate,0.438,income_kids,Income by age: children,map,.0%,3,30
+Prospect Hill,1_neighborhood,Child poverty rate,0.219,income_kids,Income by age: children,map,.0%,3,30
+Quinnipiac Meadows,1_neighborhood,Child poverty rate,0.318,income_kids,Income by age: children,map,.0%,3,30
+West River,1_neighborhood,Child poverty rate,0.336,income_kids,Income by age: children,map,.0%,3,30
+West Rock,1_neighborhood,Child poverty rate,0.436,income_kids,Income by age: children,map,.0%,3,30
+Westville,1_neighborhood,Child poverty rate,0.027,income_kids,Income by age: children,map,.0%,3,30
+Wooster Square/Mill River,1_neighborhood,Child poverty rate,0.458,income_kids,Income by age: children,map,.0%,3,30
+Greater New Haven,3_region,Low-income children,32481,income_kids,Income by age: children,table,",",4,31
+New Haven,2_city,Low-income children,18075,income_kids,Income by age: children,table,",",4,31
+Amity,1_neighborhood,Low-income children,709,income_kids,Income by age: children,table,",",4,31
+Annex,1_neighborhood,Low-income children,985,income_kids,Income by age: children,table,",",4,31
+Beaver Hills,1_neighborhood,Low-income children,650,income_kids,Income by age: children,table,",",4,31
+Dixwell,1_neighborhood,Low-income children,882,income_kids,Income by age: children,table,",",4,31
+Downtown,1_neighborhood,Low-income children,137,income_kids,Income by age: children,table,",",4,31
+Dwight,1_neighborhood,Low-income children,757,income_kids,Income by age: children,table,",",4,31
+East Rock,1_neighborhood,Low-income children,379,income_kids,Income by age: children,table,",",4,31
+East Shore,1_neighborhood,Low-income children,150,income_kids,Income by age: children,table,",",4,31
+Edgewood,1_neighborhood,Low-income children,522,income_kids,Income by age: children,table,",",4,31
+Fair Haven,1_neighborhood,Low-income children,3673,income_kids,Income by age: children,table,",",4,31
+Fair Haven Heights,1_neighborhood,Low-income children,745,income_kids,Income by age: children,table,",",4,31
+Hill,1_neighborhood,Low-income children,4250,income_kids,Income by age: children,table,",",4,31
+Newhallville,1_neighborhood,Low-income children,1265,income_kids,Income by age: children,table,",",4,31
+Prospect Hill,1_neighborhood,Low-income children,485,income_kids,Income by age: children,table,",",4,31
+Quinnipiac Meadows,1_neighborhood,Low-income children,641,income_kids,Income by age: children,table,",",4,31
+West River,1_neighborhood,Low-income children,605,income_kids,Income by age: children,table,",",4,31
+West Rock,1_neighborhood,Low-income children,785,income_kids,Income by age: children,table,",",4,31
+Westville,1_neighborhood,Low-income children,99,income_kids,Income by age: children,table,",",4,31
+Wooster Square/Mill River,1_neighborhood,Low-income children,356,income_kids,Income by age: children,table,",",4,31
+Greater New Haven,3_region,Child low-income rate,0.347,income_kids,Income by age: children,map,.0%,5,32
+New Haven,2_city,Child low-income rate,0.637,income_kids,Income by age: children,map,.0%,5,32
+Amity,1_neighborhood,Child low-income rate,0.534,income_kids,Income by age: children,map,.0%,5,32
+Annex,1_neighborhood,Child low-income rate,0.661,income_kids,Income by age: children,map,.0%,5,32
+Beaver Hills,1_neighborhood,Child low-income rate,0.528,income_kids,Income by age: children,map,.0%,5,32
+Dixwell,1_neighborhood,Child low-income rate,0.859,income_kids,Income by age: children,map,.0%,5,32
+Downtown,1_neighborhood,Child low-income rate,0.387,income_kids,Income by age: children,map,.0%,5,32
+Dwight,1_neighborhood,Child low-income rate,0.827,income_kids,Income by age: children,map,.0%,5,32
+East Rock,1_neighborhood,Child low-income rate,0.306,income_kids,Income by age: children,map,.0%,5,32
+East Shore,1_neighborhood,Child low-income rate,0.157,income_kids,Income by age: children,map,.0%,5,32
+Edgewood,1_neighborhood,Child low-income rate,0.481,income_kids,Income by age: children,map,.0%,5,32
+Fair Haven,1_neighborhood,Child low-income rate,0.729,income_kids,Income by age: children,map,.0%,5,32
+Fair Haven Heights,1_neighborhood,Child low-income rate,0.662,income_kids,Income by age: children,map,.0%,5,32
+Hill,1_neighborhood,Child low-income rate,0.869,income_kids,Income by age: children,map,.0%,5,32
+Newhallville,1_neighborhood,Child low-income rate,0.779,income_kids,Income by age: children,map,.0%,5,32
+Prospect Hill,1_neighborhood,Child low-income rate,0.491,income_kids,Income by age: children,map,.0%,5,32
+Quinnipiac Meadows,1_neighborhood,Child low-income rate,0.516,income_kids,Income by age: children,map,.0%,5,32
+West River,1_neighborhood,Child low-income rate,0.728,income_kids,Income by age: children,map,.0%,5,32
+West Rock,1_neighborhood,Child low-income rate,0.783,income_kids,Income by age: children,map,.0%,5,32
+Westville,1_neighborhood,Child low-income rate,0.065,income_kids,Income by age: children,map,.0%,5,32
+Wooster Square/Mill River,1_neighborhood,Child low-income rate,0.762,income_kids,Income by age: children,map,.0%,5,32
+Greater New Haven,3_region,"Ages 65+, poverty status known",69920,income_seniors,Income by age: seniors,table,",",1,33
+New Haven,2_city,"Ages 65+, poverty status known",13149,income_seniors,Income by age: seniors,table,",",1,33
+Amity,1_neighborhood,"Ages 65+, poverty status known",479,income_seniors,Income by age: seniors,table,",",1,33
+Annex,1_neighborhood,"Ages 65+, poverty status known",692,income_seniors,Income by age: seniors,table,",",1,33
+Beaver Hills,1_neighborhood,"Ages 65+, poverty status known",538,income_seniors,Income by age: seniors,table,",",1,33
+Dixwell,1_neighborhood,"Ages 65+, poverty status known",585,income_seniors,Income by age: seniors,table,",",1,33
+Downtown,1_neighborhood,"Ages 65+, poverty status known",542,income_seniors,Income by age: seniors,table,",",1,33
+Dwight,1_neighborhood,"Ages 65+, poverty status known",329,income_seniors,Income by age: seniors,table,",",1,33
+East Rock,1_neighborhood,"Ages 65+, poverty status known",787,income_seniors,Income by age: seniors,table,",",1,33
+East Shore,1_neighborhood,"Ages 65+, poverty status known",862,income_seniors,Income by age: seniors,table,",",1,33
+Edgewood,1_neighborhood,"Ages 65+, poverty status known",474,income_seniors,Income by age: seniors,table,",",1,33
+Fair Haven,1_neighborhood,"Ages 65+, poverty status known",1065,income_seniors,Income by age: seniors,table,",",1,33
+Fair Haven Heights,1_neighborhood,"Ages 65+, poverty status known",1550,income_seniors,Income by age: seniors,table,",",1,33
+Hill,1_neighborhood,"Ages 65+, poverty status known",1371,income_seniors,Income by age: seniors,table,",",1,33
+Newhallville,1_neighborhood,"Ages 65+, poverty status known",850,income_seniors,Income by age: seniors,table,",",1,33
+Prospect Hill,1_neighborhood,"Ages 65+, poverty status known",381,income_seniors,Income by age: seniors,table,",",1,33
+Quinnipiac Meadows,1_neighborhood,"Ages 65+, poverty status known",598,income_seniors,Income by age: seniors,table,",",1,33
+West River,1_neighborhood,"Ages 65+, poverty status known",317,income_seniors,Income by age: seniors,table,",",1,33
+West Rock,1_neighborhood,"Ages 65+, poverty status known",419,income_seniors,Income by age: seniors,table,",",1,33
+Westville,1_neighborhood,"Ages 65+, poverty status known",1025,income_seniors,Income by age: seniors,table,",",1,33
+Wooster Square/Mill River,1_neighborhood,"Ages 65+, poverty status known",286,income_seniors,Income by age: seniors,table,",",1,33
+Greater New Haven,3_region,Seniors in poverty,5561,income_seniors,Income by age: seniors,table,",",2,34
+New Haven,2_city,Seniors in poverty,2034,income_seniors,Income by age: seniors,table,",",2,34
+Amity,1_neighborhood,Seniors in poverty,112,income_seniors,Income by age: seniors,table,",",2,34
+Annex,1_neighborhood,Seniors in poverty,171,income_seniors,Income by age: seniors,table,",",2,34
+Beaver Hills,1_neighborhood,Seniors in poverty,56,income_seniors,Income by age: seniors,table,",",2,34
+Dixwell,1_neighborhood,Seniors in poverty,83,income_seniors,Income by age: seniors,table,",",2,34
+Downtown,1_neighborhood,Seniors in poverty,52,income_seniors,Income by age: seniors,table,",",2,34
+Dwight,1_neighborhood,Seniors in poverty,64,income_seniors,Income by age: seniors,table,",",2,34
+East Rock,1_neighborhood,Seniors in poverty,58,income_seniors,Income by age: seniors,table,",",2,34
+East Shore,1_neighborhood,Seniors in poverty,0,income_seniors,Income by age: seniors,table,",",2,34
+Edgewood,1_neighborhood,Seniors in poverty,40,income_seniors,Income by age: seniors,table,",",2,34
+Fair Haven,1_neighborhood,Seniors in poverty,373,income_seniors,Income by age: seniors,table,",",2,34
+Fair Haven Heights,1_neighborhood,Seniors in poverty,143,income_seniors,Income by age: seniors,table,",",2,34
+Hill,1_neighborhood,Seniors in poverty,375,income_seniors,Income by age: seniors,table,",",2,34
+Newhallville,1_neighborhood,Seniors in poverty,187,income_seniors,Income by age: seniors,table,",",2,34
+Prospect Hill,1_neighborhood,Seniors in poverty,27,income_seniors,Income by age: seniors,table,",",2,34
+Quinnipiac Meadows,1_neighborhood,Seniors in poverty,80,income_seniors,Income by age: seniors,table,",",2,34
+West River,1_neighborhood,Seniors in poverty,64,income_seniors,Income by age: seniors,table,",",2,34
+West Rock,1_neighborhood,Seniors in poverty,68,income_seniors,Income by age: seniors,table,",",2,34
+Westville,1_neighborhood,Seniors in poverty,39,income_seniors,Income by age: seniors,table,",",2,34
+Wooster Square/Mill River,1_neighborhood,Seniors in poverty,42,income_seniors,Income by age: seniors,table,",",2,34
+Greater New Haven,3_region,Senior poverty rate,0.08,income_seniors,Income by age: seniors,map,.0%,3,35
+New Haven,2_city,Senior poverty rate,0.155,income_seniors,Income by age: seniors,map,.0%,3,35
+Amity,1_neighborhood,Senior poverty rate,0.234,income_seniors,Income by age: seniors,map,.0%,3,35
+Annex,1_neighborhood,Senior poverty rate,0.247,income_seniors,Income by age: seniors,map,.0%,3,35
+Beaver Hills,1_neighborhood,Senior poverty rate,0.104,income_seniors,Income by age: seniors,map,.0%,3,35
+Dixwell,1_neighborhood,Senior poverty rate,0.142,income_seniors,Income by age: seniors,map,.0%,3,35
+Downtown,1_neighborhood,Senior poverty rate,0.096,income_seniors,Income by age: seniors,map,.0%,3,35
+Dwight,1_neighborhood,Senior poverty rate,0.195,income_seniors,Income by age: seniors,map,.0%,3,35
+East Rock,1_neighborhood,Senior poverty rate,0.074,income_seniors,Income by age: seniors,map,.0%,3,35
+East Shore,1_neighborhood,Senior poverty rate,0,income_seniors,Income by age: seniors,map,.0%,3,35
+Edgewood,1_neighborhood,Senior poverty rate,0.084,income_seniors,Income by age: seniors,map,.0%,3,35
+Fair Haven,1_neighborhood,Senior poverty rate,0.351,income_seniors,Income by age: seniors,map,.0%,3,35
+Fair Haven Heights,1_neighborhood,Senior poverty rate,0.092,income_seniors,Income by age: seniors,map,.0%,3,35
+Hill,1_neighborhood,Senior poverty rate,0.274,income_seniors,Income by age: seniors,map,.0%,3,35
+Newhallville,1_neighborhood,Senior poverty rate,0.22,income_seniors,Income by age: seniors,map,.0%,3,35
+Prospect Hill,1_neighborhood,Senior poverty rate,0.071,income_seniors,Income by age: seniors,map,.0%,3,35
+Quinnipiac Meadows,1_neighborhood,Senior poverty rate,0.134,income_seniors,Income by age: seniors,map,.0%,3,35
+West River,1_neighborhood,Senior poverty rate,0.202,income_seniors,Income by age: seniors,map,.0%,3,35
+West Rock,1_neighborhood,Senior poverty rate,0.162,income_seniors,Income by age: seniors,map,.0%,3,35
+Westville,1_neighborhood,Senior poverty rate,0.038,income_seniors,Income by age: seniors,map,.0%,3,35
+Wooster Square/Mill River,1_neighborhood,Senior poverty rate,0.147,income_seniors,Income by age: seniors,map,.0%,3,35
+Greater New Haven,3_region,Low-income seniors,17972,income_seniors,Income by age: seniors,table,",",4,36
+New Haven,2_city,Low-income seniors,5453,income_seniors,Income by age: seniors,table,",",4,36
+Amity,1_neighborhood,Low-income seniors,215,income_seniors,Income by age: seniors,table,",",4,36
+Annex,1_neighborhood,Low-income seniors,303,income_seniors,Income by age: seniors,table,",",4,36
+Beaver Hills,1_neighborhood,Low-income seniors,118,income_seniors,Income by age: seniors,table,",",4,36
+Dixwell,1_neighborhood,Low-income seniors,333,income_seniors,Income by age: seniors,table,",",4,36
+Downtown,1_neighborhood,Low-income seniors,210,income_seniors,Income by age: seniors,table,",",4,36
+Dwight,1_neighborhood,Low-income seniors,159,income_seniors,Income by age: seniors,table,",",4,36
+East Rock,1_neighborhood,Low-income seniors,178,income_seniors,Income by age: seniors,table,",",4,36
+East Shore,1_neighborhood,Low-income seniors,121,income_seniors,Income by age: seniors,table,",",4,36
+Edgewood,1_neighborhood,Low-income seniors,249,income_seniors,Income by age: seniors,table,",",4,36
+Fair Haven,1_neighborhood,Low-income seniors,750,income_seniors,Income by age: seniors,table,",",4,36
+Fair Haven Heights,1_neighborhood,Low-income seniors,784,income_seniors,Income by age: seniors,table,",",4,36
+Hill,1_neighborhood,Low-income seniors,785,income_seniors,Income by age: seniors,table,",",4,36
+Newhallville,1_neighborhood,Low-income seniors,448,income_seniors,Income by age: seniors,table,",",4,36
+Prospect Hill,1_neighborhood,Low-income seniors,44,income_seniors,Income by age: seniors,table,",",4,36
+Quinnipiac Meadows,1_neighborhood,Low-income seniors,210,income_seniors,Income by age: seniors,table,",",4,36
+West River,1_neighborhood,Low-income seniors,83,income_seniors,Income by age: seniors,table,",",4,36
+West Rock,1_neighborhood,Low-income seniors,203,income_seniors,Income by age: seniors,table,",",4,36
+Westville,1_neighborhood,Low-income seniors,172,income_seniors,Income by age: seniors,table,",",4,36
+Wooster Square/Mill River,1_neighborhood,Low-income seniors,88,income_seniors,Income by age: seniors,table,",",4,36
+Greater New Haven,3_region,Senior low-income rate,0.257,income_seniors,Income by age: seniors,map,.0%,5,37
+New Haven,2_city,Senior low-income rate,0.415,income_seniors,Income by age: seniors,map,.0%,5,37
+Amity,1_neighborhood,Senior low-income rate,0.449,income_seniors,Income by age: seniors,map,.0%,5,37
+Annex,1_neighborhood,Senior low-income rate,0.438,income_seniors,Income by age: seniors,map,.0%,5,37
+Beaver Hills,1_neighborhood,Senior low-income rate,0.219,income_seniors,Income by age: seniors,map,.0%,5,37
+Dixwell,1_neighborhood,Senior low-income rate,0.569,income_seniors,Income by age: seniors,map,.0%,5,37
+Downtown,1_neighborhood,Senior low-income rate,0.388,income_seniors,Income by age: seniors,map,.0%,5,37
+Dwight,1_neighborhood,Senior low-income rate,0.483,income_seniors,Income by age: seniors,map,.0%,5,37
+East Rock,1_neighborhood,Senior low-income rate,0.226,income_seniors,Income by age: seniors,map,.0%,5,37
+East Shore,1_neighborhood,Senior low-income rate,0.14,income_seniors,Income by age: seniors,map,.0%,5,37
+Edgewood,1_neighborhood,Senior low-income rate,0.525,income_seniors,Income by age: seniors,map,.0%,5,37
+Fair Haven,1_neighborhood,Senior low-income rate,0.704,income_seniors,Income by age: seniors,map,.0%,5,37
+Fair Haven Heights,1_neighborhood,Senior low-income rate,0.506,income_seniors,Income by age: seniors,map,.0%,5,37
+Hill,1_neighborhood,Senior low-income rate,0.573,income_seniors,Income by age: seniors,map,.0%,5,37
+Newhallville,1_neighborhood,Senior low-income rate,0.527,income_seniors,Income by age: seniors,map,.0%,5,37
+Prospect Hill,1_neighborhood,Senior low-income rate,0.115,income_seniors,Income by age: seniors,map,.0%,5,37
+Quinnipiac Meadows,1_neighborhood,Senior low-income rate,0.351,income_seniors,Income by age: seniors,map,.0%,5,37
+West River,1_neighborhood,Senior low-income rate,0.262,income_seniors,Income by age: seniors,map,.0%,5,37
+West Rock,1_neighborhood,Senior low-income rate,0.484,income_seniors,Income by age: seniors,map,.0%,5,37
+Westville,1_neighborhood,Senior low-income rate,0.168,income_seniors,Income by age: seniors,map,.0%,5,37
+Wooster Square/Mill River,1_neighborhood,Senior low-income rate,0.308,income_seniors,Income by age: seniors,map,.0%,5,37
