@@ -1,94 +1,82 @@
 import React from 'react';
-import { ComposableMap, ZoomableGroup, Geographies, Geography } from 'react-simple-maps';
-import ReactTooltip from 'react-tooltip';
+import { Mercator } from '@vx/geo';
+import { ScaleSVG } from '@vx/responsive';
+import * as topojson from 'topojson-client';
+import { Tooltip, Overlay } from 'react-bootstrap';
+
+import topology from './nhv_shape_topo.json';
 import '../styles/CityMap.css';
 
-const options = {
-	projection: 'mercator',
-	projectionConfig: {
-		scale: 200000
-	}
-};
-
-const baseStyle = {
-	stroke: '#999',
-	strokeWidth: 0.5,
-	// outline: 'none',
-	// fillOpacity: 1
-};
-
 const center = [-72.9290959, 41.2982884];
+const shape = topojson.feature(topology, topology.objects.nhv_shape);
 
 export default class CityMap extends React.Component {
-	componentDidMount() {
-		setTimeout(() => ReactTooltip.rebuild(), 100);
+	constructor(props) {
+		super(props);
+		this.state = {
+			tipString: '',
+			hovering: false,
+			target: null
+		};
+		this.showTooltip = this.showTooltip.bind(this);
+		this.hideTooltip = this.hideTooltip.bind(this);
 	}
 
-	updateColor(name) {
+	updateColor = (geography) => {
+		let name = geography.properties.Neighborhood;
 		return this.props.data[name] ? this.props.color(this.props.data[name].value) : '#ccc';
-	}
+	};
 
-	updateTooltip(name) {
-		return this.props.data[name] ? `${name}: ${this.props.data[name].displayVal}` : '';
-	}
+	showTooltip = (geography, event) => {
+		let name = geography.properties.Neighborhood;
+		let string = this.props.data[name] ? `${name}: ${this.props.data[name].displayVal}` : `${name}: N/A`;
+		this.setState({
+			tipString: string,
+			hovering: true,
+			target: event.target
+		});
+	};
+
+	hideTooltip = () => {
+		this.setState({
+			hovering: false
+		});
+	};
 
 	render() {
+		let width = this.props.width;
+
 		return (
-			<div className="CityMap" style={{
-				// position: 'relative',
-				// height: 0,
-				// paddingBottom: '10%'
-				width: '100%',
-				maxWidth: this.props.width
-			}}>
-				<div>
-					<ComposableMap {...options}
-						width={this.props.width}
-						height={this.props.width }
-						style={{
-							width: '100%',
-							// height: '100%',
-							// overflow: 'hidden',
-							height: 'auto'
+			<div className="CityMap">
+				<Overlay
+					show={this.state.hovering}
+					target={this.state.target}
+					container={this}
+					containerPadding={4}
+					placement="top"
+				>
+					<Tooltip id="mapTooltip">{this.state.tipString}</Tooltip>
+				</Overlay>
+				<ScaleSVG width={width} height={width}>
+					<Mercator
+						data={shape.features}
+						scale={200000}
+						center={center}
+						translate={[ 300, 300 ]}
+						stroke={'#777'}
+						fill={this.updateColor}
+						onClick={(geography) => (event) => {
+							this.props.handleClick(geography);
 						}}
-					>
-						<ZoomableGroup center={center} >
-							<Geographies geography={this.props.url} disableOptimization>
-								{(geographies, projection) => geographies.map((geography, i) => {
-									let name = geography.properties.Neighborhood;
+						onMouseEnter={(geography) => (event) => {
+							this.showTooltip(geography, event);
+						}}
+						onMouseLeave={(geography) => (event) => {
+							this.hideTooltip();
+						}}
+					/>
 
-									return (
-										<Geography key={name}
-											className="map-shape"
-											geography={geography}
-											projection={projection}
-											style={{
-												default: {
-													fill: this.updateColor(name),
-													fillOpacity: 0.8,
-													...baseStyle
-												},
-												hover: {
-													fill: this.updateColor(name),
-													...baseStyle
-												},
-												pressed: {
-													fill: this.updateColor(name),
-													...baseStyle
-												}
-											}}
-											onClick={this.props.handleClick}
-											data-tip={this.updateTooltip(name)}
-											data-for="mapTooltip"
-										/>
-									);
-								})}
-							</Geographies>
-						</ZoomableGroup>
-					</ComposableMap>
-				</div>
-
-				<ReactTooltip id="mapTooltip" className="custom-tooltip" />
+				</ScaleSVG>
 			</div>
 		);
 	}

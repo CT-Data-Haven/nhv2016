@@ -5,13 +5,15 @@ import { scaleOrdinal } from 'd3-scale';
 import { AnnotationLabel } from 'react-annotation';
 
 // import { VictoryBar, VictoryChart } from 'victory';
-import { ORFrame } from 'semiotic';
+import { ResponsiveORFrame } from 'semiotic';
 
 import '../styles/Chart.css';
 
 const color = scaleOrdinal()
 	.domain(['1_neighborhood', '2_city', '3_region'])
 	.range(['#666', '#9f9f9f', '#9f9f9f']);
+
+const margin = { left: 125, top: 30, bottom: 50, right: 40 };
 
 export default class Chart extends React.Component {
 	constructor(props) {
@@ -66,20 +68,17 @@ export default class Chart extends React.Component {
 			})
 			.value();
 
-
-
         return (
             <div className="Chart">
-				<ORFrame
+				<ResponsiveORFrame
 					size={this.props.size}
 					data={data}
 					axis={axis}
 					responsiveWidth={true}
-					responsiveHeight={true}
+					responsiveHeight={false}
 					projection={'horizontal'}
 					renderKey={ d => d.neighborhood }
 					type={'bar'}
-					// type={'point'}
 					style={ this.colorNeighborhood }
 					oAccessor={ d => d.neighborhood }
 					rAccessor={ d => d.value }
@@ -92,9 +91,7 @@ export default class Chart extends React.Component {
 					// svgAnnotationRules={this.makeTooltip}
 					tooltipContent={ d => (<span></span>) }
 					annotations={annotations}
-					margin={{ left: 160, top: 30, bottom: 50, right: 60 }}
-					// data-tip={'test'}
-					// data-for="chartTooltip"
+					margin={margin}
 				/>
 			</div>
         );

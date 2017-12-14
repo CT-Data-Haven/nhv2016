@@ -1,7 +1,7 @@
 import { csv } from 'd3-request';
 import { queue } from 'd3-queue';
 import { format } from 'd3-format';
-import { nest, key, entries } from 'd3-collection';
+import { nest } from 'd3-collection';
 import * as _ from 'underscore';
 
 const url = './data/nhvdata.csv';

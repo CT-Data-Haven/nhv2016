@@ -12,6 +12,8 @@ import Profile from './components/Profile';
 import CityMap from './components/CityMap';
 import Chart from './components/Chart';
 import Table from './components/Table';
+import Intro from './components/Intro';
+import Footer from './components/Footer';
 
 const mapUrl = '../data/nhv_shape_topo.json';
 
@@ -116,9 +118,6 @@ class App extends React.Component {
 		if (!vals.length) {
 			return [];
 		} else {
-			// let color = scaleSequential(interpolateGnBu)
-			// 	.domain([_.min(vals), _.max(vals)]);
-			// return color;
 			let brks = ckmeans(vals, 5).map((d) => d[0]).slice(1);
 			return scaleThreshold()
 				.domain(brks)
@@ -131,6 +130,9 @@ class App extends React.Component {
 		return (
 			<div className="App">
 				<Grid>
+					<Row>
+						<Col md={12}><Intro /></Col>
+					</Row>
 					<Row>
 						<Col md={12}>
 							<TopicForm
@@ -186,7 +188,9 @@ class App extends React.Component {
 
 					<Row>
 						<Col md={12}><Table data={this.state.table} /></Col>
-
+					</Row>
+					<Row>
+						<Col md={12}><Footer /></Col>
 					</Row>
 				</Grid>
 
