@@ -2,7 +2,8 @@ import React from 'react';
 import { Grid, Row, Col, Tabs, Tab, Panel } from 'react-bootstrap';
 import * as _ from 'underscore';
 import { ckmeans } from 'simple-statistics';
-import { scaleThreshold } from 'd3-scale';
+// import { scaleThreshold } from 'd3-scale';
+import { scaleThreshold } from '@vx/scale';
 import { schemeGnBu } from 'd3-scale-chromatic';
 
 import './App.css';
@@ -32,7 +33,7 @@ class App extends React.Component {
 			toMap: [],
 			toChart: [],
 			hood: 'Amity',
-			color: [],
+			color: scaleThreshold({ domain: [0, 1], range: ['#ccc'] }),
 			viz: 'map'
 		};
 		// this.onResize = this.onResize.bind(this);
@@ -116,12 +117,16 @@ class App extends React.Component {
 	makeScale(data) {
 		let vals = _.pluck(data, 'value');
 		if (!vals.length) {
-			return [];
+			return scaleThreshold({ domain: [0, 1], range: ['#ccc'] });
 		} else {
 			let brks = ckmeans(vals, 5).map((d) => d[0]).slice(1);
-			return scaleThreshold()
-				.domain(brks)
-				.range(schemeGnBu[5]);
+			// return scaleThreshold()
+			// 	.domain(brks)
+			// 	.range(schemeGnBu[5]);
+			return scaleThreshold({
+				domain: brks,
+				range: schemeGnBu[5]
+			});
 		}
 	}
 

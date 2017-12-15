@@ -1,8 +1,10 @@
 import React from 'react';
 import { Mercator } from '@vx/geo';
 import { ScaleSVG } from '@vx/responsive';
+import { LegendThreshold } from '@vx/legend';
 import * as topojson from 'topojson-client';
 import { Tooltip, Overlay } from 'react-bootstrap';
+import { format } from 'd3-format';
 
 import topology from './nhv_shape_topo.json';
 import '../styles/CityMap.css';
@@ -43,6 +45,10 @@ export default class CityMap extends React.Component {
 		});
 	};
 
+	percentFormat(label) {
+		return label ? format('.0%')(label) : '';
+	}
+
 	render() {
 		let width = this.props.width;
 
@@ -76,7 +82,19 @@ export default class CityMap extends React.Component {
 						}}
 					/>
 
+
 				</ScaleSVG>
+				<div className="legend-container">
+					<LegendThreshold
+						scale={this.props.color}
+						direction="column"
+						itemDirection="row"
+						labelMargin="2px 0 0 10px"
+						shapeMargin="1px 0 0"
+						labelFormat={this.percentFormat}
+					/>
+				</div>
+
 			</div>
 		);
 	}
