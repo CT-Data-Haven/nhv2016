@@ -10,8 +10,8 @@ import { ResponsiveORFrame } from 'semiotic';
 import '../styles/Chart.css';
 
 const color = scaleOrdinal()
-	.domain(['1_neighborhood', '2_city', '3_region'])
-	.range(['#666', '#9f9f9f', '#9f9f9f']);
+	.domain(['1_neighborhood', '2_city', '3_region', '4_state'])
+	.range(['#666', '#9f9f9f', '#9f9f9f', '#9f9f9f']);
 
 const margin = { left: 125, top: 30, bottom: 50, right: 40 };
 

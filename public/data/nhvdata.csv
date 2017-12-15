@@ -1,4 +1,5 @@
 neighborhood,geoType,indicator,value,topic,displayTopic,type,format,order,topicOrder
+Connecticut,4_state,Total population,3588570,age,Age,table,",",1,1
 Greater New Haven,3_region,Total population,464596,age,Age,table,",",1,1
 New Haven,2_city,Total population,130405,age,Age,table,",",1,1
 Amity,1_neighborhood,Total population,4970,age,Age,table,",",1,1
@@ -20,6 +21,7 @@ West River,1_neighborhood,Total population,3527,age,Age,table,",",1,1
 West Rock,1_neighborhood,Total population,4415,age,Age,table,",",1,1
 Westville,1_neighborhood,Total population,8548,age,Age,table,",",1,1
 Wooster Square/Mill River,1_neighborhood,Total population,3264,age,Age,table,",",1,1
+Connecticut,4_state,Population under age 18,773652,age,Age,table,",",2,2
 Greater New Haven,3_region,Population under age 18,94327,age,Age,table,",",2,2
 New Haven,2_city,Population under age 18,28682,age,Age,table,",",2,2
 Amity,1_neighborhood,Population under age 18,1327,age,Age,table,",",2,2
@@ -41,6 +43,7 @@ West River,1_neighborhood,Population under age 18,831,age,Age,table,",",2,2
 West Rock,1_neighborhood,Population under age 18,707,age,Age,table,",",2,2
 Westville,1_neighborhood,Population under age 18,1663,age,Age,table,",",2,2
 Wooster Square/Mill River,1_neighborhood,Population under age 18,471,age,Age,table,",",2,2
+Connecticut,4_state,Percent under age 18,0.216,age,Age,map,.0%,3,3
 Greater New Haven,3_region,Percent under age 18,0.203,age,Age,map,.0%,3,3
 New Haven,2_city,Percent under age 18,0.22,age,Age,map,.0%,3,3
 Amity,1_neighborhood,Percent under age 18,0.267,age,Age,map,.0%,3,3
@@ -62,6 +65,7 @@ West River,1_neighborhood,Percent under age 18,0.236,age,Age,map,.0%,3,3
 West Rock,1_neighborhood,Percent under age 18,0.16,age,Age,map,.0%,3,3
 Westville,1_neighborhood,Percent under age 18,0.195,age,Age,map,.0%,3,3
 Wooster Square/Mill River,1_neighborhood,Percent under age 18,0.144,age,Age,map,.0%,3,3
+Connecticut,4_state,Population ages 65+,555023,age,Age,table,",",4,4
 Greater New Haven,3_region,Population ages 65+,72214,age,Age,table,",",4,4
 New Haven,2_city,Population ages 65+,13681,age,Age,table,",",4,4
 Amity,1_neighborhood,Population ages 65+,479,age,Age,table,",",4,4
@@ -83,6 +87,7 @@ West River,1_neighborhood,Population ages 65+,464,age,Age,table,",",4,4
 West Rock,1_neighborhood,Population ages 65+,278,age,Age,table,",",4,4
 Westville,1_neighborhood,Population ages 65+,1124,age,Age,table,",",4,4
 Wooster Square/Mill River,1_neighborhood,Population ages 65+,286,age,Age,table,",",4,4
+Connecticut,4_state,Percent ages 65+,0.155,age,Age,map,.0%,5,5
 Greater New Haven,3_region,Percent ages 65+,0.155,age,Age,map,.0%,5,5
 New Haven,2_city,Percent ages 65+,0.105,age,Age,map,.0%,5,5
 Amity,1_neighborhood,Percent ages 65+,0.096,age,Age,map,.0%,5,5
@@ -104,6 +109,7 @@ West River,1_neighborhood,Percent ages 65+,0.132,age,Age,map,.0%,5,5
 West Rock,1_neighborhood,Percent ages 65+,0.063,age,Age,map,.0%,5,5
 Westville,1_neighborhood,Percent ages 65+,0.131,age,Age,map,.0%,5,5
 Wooster Square/Mill River,1_neighborhood,Percent ages 65+,0.088,age,Age,map,.0%,5,5
+Connecticut,4_state,Total population,3588570,race,Race and ethnicity,table,",",1,6
 Greater New Haven,3_region,Total population,464596,race,Race and ethnicity,table,",",1,6
 New Haven,2_city,Total population,130405,race,Race and ethnicity,table,",",1,6
 Amity,1_neighborhood,Total population,4970,race,Race and ethnicity,table,",",1,6
@@ -125,6 +131,7 @@ West River,1_neighborhood,Total population,3527,race,Race and ethnicity,table,",
 West Rock,1_neighborhood,Total population,4415,race,Race and ethnicity,table,",",1,6
 Westville,1_neighborhood,Total population,8548,race,Race and ethnicity,table,",",1,6
 Wooster Square/Mill River,1_neighborhood,Total population,3264,race,Race and ethnicity,table,",",1,6
+Connecticut,4_state,Latino population,537728,race,Race and ethnicity,table,",",2,7
 Greater New Haven,3_region,Latino population,66996,race,Race and ethnicity,table,",",2,7
 New Haven,2_city,Latino population,37231,race,Race and ethnicity,table,",",2,7
 Amity,1_neighborhood,Latino population,669,race,Race and ethnicity,table,",",2,7
@@ -146,6 +153,7 @@ West River,1_neighborhood,Latino population,889,race,Race and ethnicity,table,",
 West Rock,1_neighborhood,Latino population,543,race,Race and ethnicity,table,",",2,7
 Westville,1_neighborhood,Latino population,819,race,Race and ethnicity,table,",",2,7
 Wooster Square/Mill River,1_neighborhood,Latino population,732,race,Race and ethnicity,table,",",2,7
+Connecticut,4_state,Percent Latino,0.15,race,Race and ethnicity,map,.0%,3,8
 Greater New Haven,3_region,Percent Latino,0.144,race,Race and ethnicity,map,.0%,3,8
 New Haven,2_city,Percent Latino,0.286,race,Race and ethnicity,map,.0%,3,8
 Amity,1_neighborhood,Percent Latino,0.135,race,Race and ethnicity,map,.0%,3,8
@@ -167,6 +175,7 @@ West River,1_neighborhood,Percent Latino,0.252,race,Race and ethnicity,map,.0%,3
 West Rock,1_neighborhood,Percent Latino,0.123,race,Race and ethnicity,map,.0%,3,8
 Westville,1_neighborhood,Percent Latino,0.096,race,Race and ethnicity,map,.0%,3,8
 Wooster Square/Mill River,1_neighborhood,Percent Latino,0.224,race,Race and ethnicity,map,.0%,3,8
+Connecticut,4_state,White population,2464450,race,Race and ethnicity,table,",",4,9
 Greater New Haven,3_region,White population,293119,race,Race and ethnicity,table,",",4,9
 New Haven,2_city,White population,40164,race,Race and ethnicity,table,",",4,9
 Amity,1_neighborhood,White population,1090,race,Race and ethnicity,table,",",4,9
@@ -188,6 +197,7 @@ West River,1_neighborhood,White population,505,race,Race and ethnicity,table,","
 West Rock,1_neighborhood,White population,2031,race,Race and ethnicity,table,",",4,9
 Westville,1_neighborhood,White population,4865,race,Race and ethnicity,table,",",4,9
 Wooster Square/Mill River,1_neighborhood,White population,1547,race,Race and ethnicity,table,",",4,9
+Connecticut,4_state,Percent white,0.687,race,Race and ethnicity,map,.0%,5,10
 Greater New Haven,3_region,Percent white,0.631,race,Race and ethnicity,map,.0%,5,10
 New Haven,2_city,Percent white,0.308,race,Race and ethnicity,map,.0%,5,10
 Amity,1_neighborhood,Percent white,0.219,race,Race and ethnicity,map,.0%,5,10
@@ -209,6 +219,7 @@ West River,1_neighborhood,Percent white,0.143,race,Race and ethnicity,map,.0%,5,
 West Rock,1_neighborhood,Percent white,0.46,race,Race and ethnicity,map,.0%,5,10
 Westville,1_neighborhood,Percent white,0.569,race,Race and ethnicity,map,.0%,5,10
 Wooster Square/Mill River,1_neighborhood,Percent white,0.474,race,Race and ethnicity,map,.0%,5,10
+Connecticut,4_state,Black population,347674,race,Race and ethnicity,table,",",6,11
 Greater New Haven,3_region,Black population,71020,race,Race and ethnicity,table,",",6,11
 New Haven,2_city,Black population,42970,race,Race and ethnicity,table,",",6,11
 Amity,1_neighborhood,Black population,2716,race,Race and ethnicity,table,",",6,11
@@ -230,6 +241,7 @@ West River,1_neighborhood,Black population,1905,race,Race and ethnicity,table,",
 West Rock,1_neighborhood,Black population,1591,race,Race and ethnicity,table,",",6,11
 Westville,1_neighborhood,Black population,2314,race,Race and ethnicity,table,",",6,11
 Wooster Square/Mill River,1_neighborhood,Black population,751,race,Race and ethnicity,table,",",6,11
+Connecticut,4_state,Percent black,0.097,race,Race and ethnicity,map,.0%,7,12
 Greater New Haven,3_region,Percent black,0.153,race,Race and ethnicity,map,.0%,7,12
 New Haven,2_city,Percent black,0.33,race,Race and ethnicity,map,.0%,7,12
 Amity,1_neighborhood,Percent black,0.546,race,Race and ethnicity,map,.0%,7,12
@@ -251,6 +263,7 @@ West River,1_neighborhood,Percent black,0.54,race,Race and ethnicity,map,.0%,7,1
 West Rock,1_neighborhood,Percent black,0.36,race,Race and ethnicity,map,.0%,7,12
 Westville,1_neighborhood,Percent black,0.271,race,Race and ethnicity,map,.0%,7,12
 Wooster Square/Mill River,1_neighborhood,Percent black,0.23,race,Race and ethnicity,map,.0%,7,12
+Connecticut,4_state,Other race population,238718,race,Race and ethnicity,table,",",8,13
 Greater New Haven,3_region,Other race population,33461,race,Race and ethnicity,table,",",8,13
 New Haven,2_city,Other race population,10040,race,Race and ethnicity,table,",",8,13
 Amity,1_neighborhood,Other race population,495,race,Race and ethnicity,table,",",8,13
@@ -272,6 +285,7 @@ West River,1_neighborhood,Other race population,228,race,Race and ethnicity,tabl
 West Rock,1_neighborhood,Other race population,250,race,Race and ethnicity,table,",",8,13
 Westville,1_neighborhood,Other race population,550,race,Race and ethnicity,table,",",8,13
 Wooster Square/Mill River,1_neighborhood,Other race population,234,race,Race and ethnicity,table,",",8,13
+Connecticut,4_state,Percent other race,0.067,race,Race and ethnicity,map,.0%,9,14
 Greater New Haven,3_region,Percent other race,0.072,race,Race and ethnicity,map,.0%,9,14
 New Haven,2_city,Percent other race,0.077,race,Race and ethnicity,map,.0%,9,14
 Amity,1_neighborhood,Percent other race,0.1,race,Race and ethnicity,map,.0%,9,14
@@ -293,6 +307,7 @@ West River,1_neighborhood,Percent other race,0.065,race,Race and ethnicity,map,.
 West Rock,1_neighborhood,Percent other race,0.057,race,Race and ethnicity,map,.0%,9,14
 Westville,1_neighborhood,Percent other race,0.064,race,Race and ethnicity,map,.0%,9,14
 Wooster Square/Mill River,1_neighborhood,Percent other race,0.072,race,Race and ethnicity,map,.0%,9,14
+Connecticut,4_state,Total households,1354713,households,Households,table,",",1,15
 Greater New Haven,3_region,Total households,177415,households,Households,table,",",1,15
 New Haven,2_city,Total households,50024,households,Households,table,",",1,15
 Amity,1_neighborhood,Total households,1830,households,Households,table,",",1,15
@@ -314,6 +329,7 @@ West River,1_neighborhood,Total households,1407,households,Households,table,",",
 West Rock,1_neighborhood,Total households,915,households,Households,table,",",1,15
 Westville,1_neighborhood,Total households,3659,households,Households,table,",",1,15
 Wooster Square/Mill River,1_neighborhood,Total households,1578,households,Households,table,",",1,15
+Connecticut,4_state,Owner-occupied households,900223,households,Households,table,",",2,16
 Greater New Haven,3_region,Owner-occupied households,106876,households,Households,table,",",2,16
 New Haven,2_city,Owner-occupied households,14092,households,Households,table,",",2,16
 Amity,1_neighborhood,Owner-occupied households,839,households,Households,table,",",2,16
@@ -335,6 +351,7 @@ West River,1_neighborhood,Owner-occupied households,255,households,Households,ta
 West Rock,1_neighborhood,Owner-occupied households,95,households,Households,table,",",2,16
 Westville,1_neighborhood,Owner-occupied households,1657,households,Households,table,",",2,16
 Wooster Square/Mill River,1_neighborhood,Owner-occupied households,368,households,Households,table,",",2,16
+Connecticut,4_state,Homeownership rate,0.665,households,Households,map,.0%,3,17
 Greater New Haven,3_region,Homeownership rate,0.602,households,Households,map,.0%,3,17
 New Haven,2_city,Homeownership rate,0.282,households,Households,map,.0%,3,17
 Amity,1_neighborhood,Homeownership rate,0.458,households,Households,map,.0%,3,17
@@ -356,6 +373,7 @@ West River,1_neighborhood,Homeownership rate,0.181,households,Households,map,.0%
 West Rock,1_neighborhood,Homeownership rate,0.104,households,Households,map,.0%,3,17
 Westville,1_neighborhood,Homeownership rate,0.453,households,Households,map,.0%,3,17
 Wooster Square/Mill River,1_neighborhood,Homeownership rate,0.233,households,Households,map,.0%,3,17
+Connecticut,4_state,Poverty status known,3479672,income,Income,table,",",1,18
 Greater New Haven,3_region,Poverty status known,445981,income,Income,table,",",1,18
 New Haven,2_city,Poverty status known,121847,income,Income,table,",",1,18
 Amity,1_neighborhood,Poverty status known,4970,income,Income,table,",",1,18
@@ -377,6 +395,7 @@ West River,1_neighborhood,Poverty status known,3349,income,Income,table,",",1,18
 West Rock,1_neighborhood,Poverty status known,2343,income,Income,table,",",1,18
 Westville,1_neighborhood,Poverty status known,8524,income,Income,table,",",1,18
 Wooster Square/Mill River,1_neighborhood,Poverty status known,3228,income,Income,table,",",1,18
+Connecticut,4_state,Population in poverty,360464,income,Income,table,",",2,19
 Greater New Haven,3_region,Population in poverty,56312,income,Income,table,",",2,19
 New Haven,2_city,Population in poverty,31848,income,Income,table,",",2,19
 Amity,1_neighborhood,Population in poverty,1033,income,Income,table,",",2,19
@@ -398,6 +417,7 @@ West River,1_neighborhood,Population in poverty,1175,income,Income,table,",",2,1
 West Rock,1_neighborhood,Population in poverty,835,income,Income,table,",",2,19
 Westville,1_neighborhood,Population in poverty,709,income,Income,table,",",2,19
 Wooster Square/Mill River,1_neighborhood,Population in poverty,918,income,Income,table,",",2,19
+Connecticut,4_state,Poverty rate,0.104,income,Income,map,.0%,3,20
 Greater New Haven,3_region,Poverty rate,0.126,income,Income,map,.0%,3,20
 New Haven,2_city,Poverty rate,0.261,income,Income,map,.0%,3,20
 Amity,1_neighborhood,Poverty rate,0.208,income,Income,map,.0%,3,20
@@ -419,6 +439,7 @@ West River,1_neighborhood,Poverty rate,0.351,income,Income,map,.0%,3,20
 West Rock,1_neighborhood,Poverty rate,0.356,income,Income,map,.0%,3,20
 Westville,1_neighborhood,Poverty rate,0.083,income,Income,map,.0%,3,20
 Wooster Square/Mill River,1_neighborhood,Poverty rate,0.284,income,Income,map,.0%,3,20
+Connecticut,4_state,Low-income population,812120,income,Income,table,",",4,21
 Greater New Haven,3_region,Low-income population,119297,income,Income,table,",",4,21
 New Haven,2_city,Low-income population,59454,income,Income,table,",",4,21
 Amity,1_neighborhood,Low-income population,2140,income,Income,table,",",4,21
@@ -440,6 +461,7 @@ West River,1_neighborhood,Low-income population,2081,income,Income,table,",",4,2
 West Rock,1_neighborhood,Low-income population,1395,income,Income,table,",",4,21
 Westville,1_neighborhood,Low-income population,1546,income,Income,table,",",4,21
 Wooster Square/Mill River,1_neighborhood,Low-income population,1604,income,Income,table,",",4,21
+Connecticut,4_state,Low-income rate,0.233,income,Income,map,.0%,5,22
 Greater New Haven,3_region,Low-income rate,0.267,income,Income,map,.0%,5,22
 New Haven,2_city,Low-income rate,0.488,income,Income,map,.0%,5,22
 Amity,1_neighborhood,Low-income rate,0.431,income,Income,map,.0%,5,22
@@ -461,6 +483,7 @@ West River,1_neighborhood,Low-income rate,0.621,income,Income,map,.0%,5,22
 West Rock,1_neighborhood,Low-income rate,0.595,income,Income,map,.0%,5,22
 Westville,1_neighborhood,Low-income rate,0.181,income,Income,map,.0%,5,22
 Wooster Square/Mill River,1_neighborhood,Low-income rate,0.497,income,Income,map,.0%,5,22
+Connecticut,4_state,High-income population,1394099,income,Income,table,",",6,23
 Greater New Haven,3_region,High-income population,166554,income,Income,table,",",6,23
 New Haven,2_city,High-income population,22518,income,Income,table,",",6,23
 Amity,1_neighborhood,High-income population,1067,income,Income,table,",",6,23
@@ -482,6 +505,7 @@ West River,1_neighborhood,High-income population,424,income,Income,table,",",6,2
 West Rock,1_neighborhood,High-income population,701,income,Income,table,",",6,23
 Westville,1_neighborhood,High-income population,2943,income,Income,table,",",6,23
 Wooster Square/Mill River,1_neighborhood,High-income population,741,income,Income,table,",",6,23
+Connecticut,4_state,High-income rate,0.401,income,Income,map,.0%,7,24
 Greater New Haven,3_region,High-income rate,0.373,income,Income,map,.0%,7,24
 New Haven,2_city,High-income rate,0.185,income,Income,map,.0%,7,24
 Amity,1_neighborhood,High-income rate,0.215,income,Income,map,.0%,7,24
@@ -503,6 +527,7 @@ West River,1_neighborhood,High-income rate,0.127,income,Income,map,.0%,7,24
 West Rock,1_neighborhood,High-income rate,0.162,income,Income,map,.0%,7,24
 Westville,1_neighborhood,High-income rate,0.414,income,Income,map,.0%,7,24
 Wooster Square/Mill River,1_neighborhood,High-income rate,0.23,income,Income,map,.0%,7,24
+Connecticut,4_state,Total population,3588570,immigration,Immigration,table,",",1,25
 Greater New Haven,3_region,Total population,464596,immigration,Immigration,table,",",1,25
 New Haven,2_city,Total population,130405,immigration,Immigration,table,",",1,25
 Amity,1_neighborhood,Total population,4970,immigration,Immigration,table,",",1,25
@@ -524,6 +549,7 @@ West River,1_neighborhood,Total population,3527,immigration,Immigration,table,",
 West Rock,1_neighborhood,Total population,4415,immigration,Immigration,table,",",1,25
 Westville,1_neighborhood,Total population,8548,immigration,Immigration,table,",",1,25
 Wooster Square/Mill River,1_neighborhood,Total population,3264,immigration,Immigration,table,",",1,25
+Connecticut,4_state,Foreign-born population,503209,immigration,Immigration,table,",",2,26
 Greater New Haven,3_region,Foreign-born population,58652,immigration,Immigration,table,",",2,26
 New Haven,2_city,Foreign-born population,21167,immigration,Immigration,table,",",2,26
 Amity,1_neighborhood,Foreign-born population,631,immigration,Immigration,table,",",2,26
@@ -545,6 +571,7 @@ West River,1_neighborhood,Foreign-born population,431,immigration,Immigration,ta
 West Rock,1_neighborhood,Foreign-born population,799,immigration,Immigration,table,",",2,26
 Westville,1_neighborhood,Foreign-born population,832,immigration,Immigration,table,",",2,26
 Wooster Square/Mill River,1_neighborhood,Foreign-born population,476,immigration,Immigration,table,",",2,26
+Connecticut,4_state,Percent foreign-born,0.14,immigration,Immigration,map,.0%,3,27
 Greater New Haven,3_region,Percent foreign-born,0.126,immigration,Immigration,map,.0%,3,27
 New Haven,2_city,Percent foreign-born,0.162,immigration,Immigration,map,.0%,3,27
 Amity,1_neighborhood,Percent foreign-born,0.127,immigration,Immigration,map,.0%,3,27
@@ -566,6 +593,7 @@ West River,1_neighborhood,Percent foreign-born,0.122,immigration,Immigration,map
 West Rock,1_neighborhood,Percent foreign-born,0.125,immigration,Immigration,map,.0%,3,27
 Westville,1_neighborhood,Percent foreign-born,0.117,immigration,Immigration,map,.0%,3,27
 Wooster Square/Mill River,1_neighborhood,Percent foreign-born,0.146,immigration,Immigration,map,.0%,3,27
+Connecticut,4_state,"Under 18, poverty status known",763850,income_kids,Income by age: children,table,",",1,28
 Greater New Haven,3_region,"Under 18, poverty status known",93489,income_kids,Income by age: children,table,",",1,28
 New Haven,2_city,"Under 18, poverty status known",28364,income_kids,Income by age: children,table,",",1,28
 Amity,1_neighborhood,"Under 18, poverty status known",1327,income_kids,Income by age: children,table,",",1,28
@@ -587,6 +615,7 @@ West River,1_neighborhood,"Under 18, poverty status known",831,income_kids,Incom
 West Rock,1_neighborhood,"Under 18, poverty status known",1003,income_kids,Income by age: children,table,",",1,28
 Westville,1_neighborhood,"Under 18, poverty status known",1528,income_kids,Income by age: children,table,",",1,28
 Wooster Square/Mill River,1_neighborhood,"Under 18, poverty status known",467,income_kids,Income by age: children,table,",",1,28
+Connecticut,4_state,Children in poverty,107690,income_kids,Income by age: children,table,",",2,29
 Greater New Haven,3_region,Children in poverty,16556,income_kids,Income by age: children,table,",",2,29
 New Haven,2_city,Children in poverty,10344,income_kids,Income by age: children,table,",",2,29
 Amity,1_neighborhood,Children in poverty,397,income_kids,Income by age: children,table,",",2,29
@@ -608,6 +637,7 @@ West River,1_neighborhood,Children in poverty,279,income_kids,Income by age: chi
 West Rock,1_neighborhood,Children in poverty,437,income_kids,Income by age: children,table,",",2,29
 Westville,1_neighborhood,Children in poverty,41,income_kids,Income by age: children,table,",",2,29
 Wooster Square/Mill River,1_neighborhood,Children in poverty,214,income_kids,Income by age: children,table,",",2,29
+Connecticut,4_state,Child poverty rate,0.141,income_kids,Income by age: children,map,.0%,3,30
 Greater New Haven,3_region,Child poverty rate,0.177,income_kids,Income by age: children,map,.0%,3,30
 New Haven,2_city,Child poverty rate,0.365,income_kids,Income by age: children,map,.0%,3,30
 Amity,1_neighborhood,Child poverty rate,0.299,income_kids,Income by age: children,map,.0%,3,30
@@ -629,6 +659,7 @@ West River,1_neighborhood,Child poverty rate,0.336,income_kids,Income by age: ch
 West Rock,1_neighborhood,Child poverty rate,0.436,income_kids,Income by age: children,map,.0%,3,30
 Westville,1_neighborhood,Child poverty rate,0.027,income_kids,Income by age: children,map,.0%,3,30
 Wooster Square/Mill River,1_neighborhood,Child poverty rate,0.458,income_kids,Income by age: children,map,.0%,3,30
+Connecticut,4_state,Low-income children,229817,income_kids,Income by age: children,table,",",4,31
 Greater New Haven,3_region,Low-income children,32481,income_kids,Income by age: children,table,",",4,31
 New Haven,2_city,Low-income children,18075,income_kids,Income by age: children,table,",",4,31
 Amity,1_neighborhood,Low-income children,709,income_kids,Income by age: children,table,",",4,31
@@ -650,6 +681,7 @@ West River,1_neighborhood,Low-income children,605,income_kids,Income by age: chi
 West Rock,1_neighborhood,Low-income children,785,income_kids,Income by age: children,table,",",4,31
 Westville,1_neighborhood,Low-income children,99,income_kids,Income by age: children,table,",",4,31
 Wooster Square/Mill River,1_neighborhood,Low-income children,356,income_kids,Income by age: children,table,",",4,31
+Connecticut,4_state,Child low-income rate,0.301,income_kids,Income by age: children,map,.0%,5,32
 Greater New Haven,3_region,Child low-income rate,0.347,income_kids,Income by age: children,map,.0%,5,32
 New Haven,2_city,Child low-income rate,0.637,income_kids,Income by age: children,map,.0%,5,32
 Amity,1_neighborhood,Child low-income rate,0.534,income_kids,Income by age: children,map,.0%,5,32
@@ -671,6 +703,7 @@ West River,1_neighborhood,Child low-income rate,0.728,income_kids,Income by age:
 West Rock,1_neighborhood,Child low-income rate,0.783,income_kids,Income by age: children,map,.0%,5,32
 Westville,1_neighborhood,Child low-income rate,0.065,income_kids,Income by age: children,map,.0%,5,32
 Wooster Square/Mill River,1_neighborhood,Child low-income rate,0.762,income_kids,Income by age: children,map,.0%,5,32
+Connecticut,4_state,"Ages 65+, poverty status known",533413,income_seniors,Income by age: seniors,table,",",1,33
 Greater New Haven,3_region,"Ages 65+, poverty status known",69920,income_seniors,Income by age: seniors,table,",",1,33
 New Haven,2_city,"Ages 65+, poverty status known",13149,income_seniors,Income by age: seniors,table,",",1,33
 Amity,1_neighborhood,"Ages 65+, poverty status known",479,income_seniors,Income by age: seniors,table,",",1,33
@@ -692,6 +725,7 @@ West River,1_neighborhood,"Ages 65+, poverty status known",317,income_seniors,In
 West Rock,1_neighborhood,"Ages 65+, poverty status known",419,income_seniors,Income by age: seniors,table,",",1,33
 Westville,1_neighborhood,"Ages 65+, poverty status known",1025,income_seniors,Income by age: seniors,table,",",1,33
 Wooster Square/Mill River,1_neighborhood,"Ages 65+, poverty status known",286,income_seniors,Income by age: seniors,table,",",1,33
+Connecticut,4_state,Seniors in poverty,38003,income_seniors,Income by age: seniors,table,",",2,34
 Greater New Haven,3_region,Seniors in poverty,5561,income_seniors,Income by age: seniors,table,",",2,34
 New Haven,2_city,Seniors in poverty,2034,income_seniors,Income by age: seniors,table,",",2,34
 Amity,1_neighborhood,Seniors in poverty,112,income_seniors,Income by age: seniors,table,",",2,34
@@ -713,6 +747,7 @@ West River,1_neighborhood,Seniors in poverty,64,income_seniors,Income by age: se
 West Rock,1_neighborhood,Seniors in poverty,68,income_seniors,Income by age: seniors,table,",",2,34
 Westville,1_neighborhood,Seniors in poverty,39,income_seniors,Income by age: seniors,table,",",2,34
 Wooster Square/Mill River,1_neighborhood,Seniors in poverty,42,income_seniors,Income by age: seniors,table,",",2,34
+Connecticut,4_state,Senior poverty rate,0.071,income_seniors,Income by age: seniors,map,.0%,3,35
 Greater New Haven,3_region,Senior poverty rate,0.08,income_seniors,Income by age: seniors,map,.0%,3,35
 New Haven,2_city,Senior poverty rate,0.155,income_seniors,Income by age: seniors,map,.0%,3,35
 Amity,1_neighborhood,Senior poverty rate,0.234,income_seniors,Income by age: seniors,map,.0%,3,35
@@ -734,6 +769,7 @@ West River,1_neighborhood,Senior poverty rate,0.202,income_seniors,Income by age
 West Rock,1_neighborhood,Senior poverty rate,0.162,income_seniors,Income by age: seniors,map,.0%,3,35
 Westville,1_neighborhood,Senior poverty rate,0.038,income_seniors,Income by age: seniors,map,.0%,3,35
 Wooster Square/Mill River,1_neighborhood,Senior poverty rate,0.147,income_seniors,Income by age: seniors,map,.0%,3,35
+Connecticut,4_state,Low-income seniors,122224,income_seniors,Income by age: seniors,table,",",4,36
 Greater New Haven,3_region,Low-income seniors,17972,income_seniors,Income by age: seniors,table,",",4,36
 New Haven,2_city,Low-income seniors,5453,income_seniors,Income by age: seniors,table,",",4,36
 Amity,1_neighborhood,Low-income seniors,215,income_seniors,Income by age: seniors,table,",",4,36
@@ -755,6 +791,7 @@ West River,1_neighborhood,Low-income seniors,83,income_seniors,Income by age: se
 West Rock,1_neighborhood,Low-income seniors,203,income_seniors,Income by age: seniors,table,",",4,36
 Westville,1_neighborhood,Low-income seniors,172,income_seniors,Income by age: seniors,table,",",4,36
 Wooster Square/Mill River,1_neighborhood,Low-income seniors,88,income_seniors,Income by age: seniors,table,",",4,36
+Connecticut,4_state,Senior low-income rate,0.229,income_seniors,Income by age: seniors,map,.0%,5,37
 Greater New Haven,3_region,Senior low-income rate,0.257,income_seniors,Income by age: seniors,map,.0%,5,37
 New Haven,2_city,Senior low-income rate,0.415,income_seniors,Income by age: seniors,map,.0%,5,37
 Amity,1_neighborhood,Senior low-income rate,0.449,income_seniors,Income by age: seniors,map,.0%,5,37
