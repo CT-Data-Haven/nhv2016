@@ -46,7 +46,7 @@ export default class Table extends React.Component {
 			.value();
 		columns.unshift({ Header: 'Neighborhood', accessor: 'Neighborhood', resizable: true });
 
-		// let rows = table.length || 21;
+		let rows = table.length || 22;
 
 		return (
 			<div className="CityTable">
@@ -54,7 +54,7 @@ export default class Table extends React.Component {
 					data={table}
 					columns={columns}
 					className="-highlight table-responsive"
-					// defaultPageSize={rows}
+					defaultPageSize={rows}
 					// pageSizeOptions={[5, 10, rows]}
 					showPageSizeOptions={false}
 					showPagination={false}
