@@ -66,9 +66,9 @@ export default class CityMap extends React.Component {
 				<ScaleSVG width={width} height={width}>
 					<Mercator
 						data={shape.features}
-						scale={200000}
+						scale={210000}
 						center={center}
-						translate={[ 300, 300 ]}
+						translate={[ width / 2, width / 2 ]}
 						stroke={'#777'}
 						fill={this.updateColor}
 						onClick={(geography) => (event) => {
