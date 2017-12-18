@@ -22,3 +22,8 @@
 .CityTable .ReactTable .rt-th, .CityTable .ReactTable .rt-td {
     white-space: normal;
 }
+
+.CityTable .rt-th svg {
+    width: 0.8em;
+    height: 0.8em;
+}

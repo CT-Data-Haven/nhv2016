@@ -23,6 +23,10 @@
 	border: 1px solid #888;
 }
 
+.CityMap .shape-label {
+	pointer-events: none;
+}
+
 #mapTooltip {
 	font-family: 'Barlow', sans-serif;
 	font-size: 0.9em;
@@ -31,4 +35,13 @@
 
 #mapTooltip .tooltip.top {
 	/* margin-top: 50px; */
+}
+
+.map-tooltip {
+	/* background-color: #333;
+	color: white;
+	opacity: 0.8;
+	position: absolute;
+	font-family: 'Barlow', sans-serif;
+	font-size: 0.9em; */
 }
