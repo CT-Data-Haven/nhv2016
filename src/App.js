@@ -71,11 +71,11 @@ class App extends React.Component {
 	};
 
 	handleBarClick = (e) => {
-		if (e.neighborhood === 'Long Wharf') {
+		if (e.y === 'Long Wharf') {
 			return;
 		}
 		this.setState({
-			hood: e.neighborhood
+			hood: e.y
 		});
 	};
 

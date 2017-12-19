@@ -30,6 +30,7 @@ export default class Chart extends React.Component {
 		this.state = {
 			hovered: ''
 		};
+		this.handleClick = props.handleClick.bind(this);
 	}
 
 	colorNeighborhood = (d) => {
@@ -90,6 +91,7 @@ export default class Chart extends React.Component {
 										fill={ this.colorNeighborhood(d) }
 										data={{ x: value(d), y: neighborhood(d) }}
 										className="bar"
+										onClick={data => e => this.handleClick(data)}
 									/>
 								</Group>
 							)

@@ -3,32 +3,12 @@
 	font-size: 12px;
 }
 
-.Chart .axis .tick-line path {
-    stroke: #bfbfbf;
+.Chart g.vx-axis line {
+    stroke: #999;
     stroke-width: 1px;
 }
 
-.Chart rect.vx-bar {
-    transition: x 400ms ease-in-out, y 400ms ease-in-out, width 400ms ease-in-out, height 400ms ease-in-out,
-		fill 200ms ease-in-out;
-}
-
-.Chart .interaction-overlay path {
+.Chart g.cx-group rect.bar {
+    transition: all 400ms ease-in-out;
     cursor: pointer;
-}
-
-.Chart text, .Chart tspan {
-    transition: transform 400ms;
-}
-
-.Chart .label {
-
-}
-
-.Chart g.percent-axis text {
-	font-size: 0.85em;
-}
-
-.Chart text.annotation-note-label {
-    fill: #222;
 }
