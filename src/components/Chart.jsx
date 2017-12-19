@@ -39,7 +39,7 @@ const tipStyle = {
 	}
 };
 
-const margin = { left: 135, top: 30, bottom: 50, right: 40 };
+const margin = { left: 135, top: 30, bottom: 50, right: 12 };
 
 export default class Chart extends React.Component {
 	constructor(props) {
@@ -98,7 +98,7 @@ export default class Chart extends React.Component {
 
 		return (
 			<div className="Chart">
-				<ScaleSVG width={width} height={height} onMouseLeave={this.handleLeave}>
+				<svg width={width} height={height}>
 					<Group top={margin.top} left={margin.left}>
 						{data.map((d, i) => {
 							let barLength = xscale(value(d));
@@ -144,7 +144,7 @@ export default class Chart extends React.Component {
 							className={'axis'}
 						/>
 					</Group>
-				</ScaleSVG>
+				</svg>
 				<Tooltip
 					active={this.state.hovering}
 					position="right"

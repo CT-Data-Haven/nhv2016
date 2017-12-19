@@ -13,35 +13,12 @@
 }
 
 .CityMap .legend-container {
-	position: absolute;
-	bottom: 3em;
-	left: 40px;
-	font-size: 0.9em;
+	/* position: absolute; */
+	/* bottom: 3em; */
+	/* left: 40px; */
+	font-size: 0.85em;
 }
 
 .CityMap .legend-container .vx-legend-shape>div {
 	border: 1px solid #888;
-}
-
-.CityMap .shape-label {
-	pointer-events: none;
-}
-
-#mapTooltip {
-	font-family: 'Barlow', sans-serif;
-	font-size: 0.9em;
-	opacity: 0.8;
-}
-
-#mapTooltip .tooltip.top {
-	/* margin-top: 50px; */
-}
-
-.map-tooltip {
-	/* background-color: #333;
-	color: white;
-	opacity: 0.8;
-	position: absolute;
-	font-family: 'Barlow', sans-serif;
-	font-size: 0.9em; */
 }

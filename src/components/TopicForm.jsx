@@ -8,7 +8,6 @@ export default class TopicForm extends React.Component {
 		// bind event handlers
 		this.handleTopic = props.handleTopic.bind(this);
 		this.handleIndicator = props.handleIndicator.bind(this);
-		this.handleSelect = props.handleSelect.bind(this);
 	}
 
 	render() {
@@ -21,7 +20,7 @@ export default class TopicForm extends React.Component {
 
 		return (
 			<div className="TopicForm">
-				<Form onChange={this.handleSelect}>
+				<Form>
 					<FormGroup controlId="topicSelect">
 						<ControlLabel>Select topic</ControlLabel>
 						<FormControl componentClass="select" onChange={this.handleTopic}>{topics}</FormControl>

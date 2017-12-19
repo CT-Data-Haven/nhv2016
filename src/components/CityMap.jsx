@@ -5,6 +5,7 @@ import { LegendThreshold } from '@vx/legend';
 import * as topojson from 'topojson-client';
 import { format } from 'd3-format';
 import Tooltip from 'react-portal-tooltip';
+import { Col } from 'react-bootstrap';
 
 import topology from './nhv_shape_topo.json';
 import '../styles/CityMap.css';
@@ -97,7 +98,11 @@ export default class CityMap extends React.Component {
 					/>
 				</ScaleSVG>
 
-				<div className="legend-container">
+				<div className="legend-container"
+					style={{
+						position: this.props.collapse ? 'relative' : 'absolute',
+						bottom: '3em'
+					}}>
 					<LegendThreshold
 						scale={this.props.color}
 						direction="column"

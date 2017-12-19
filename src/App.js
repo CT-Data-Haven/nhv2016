@@ -2,9 +2,9 @@ import React from 'react';
 import { Grid, Row, Col, Tabs, Tab, Panel } from 'react-bootstrap';
 import * as _ from 'underscore';
 import { ckmeans } from 'simple-statistics';
-// import { scaleThreshold } from 'd3-scale';
 import { scaleThreshold } from '@vx/scale';
 import { schemeGnBu } from 'd3-scale-chromatic';
+import ReactResizeDetector from 'react-resize-detector';
 
 import './App.css';
 
@@ -34,9 +34,11 @@ class App extends React.Component {
 			toChart: [],
 			hood: 'Amity',
 			color: scaleThreshold({ domain: [0, 1], range: ['#ccc'] }),
-			viz: 'chart'
+			viz: 'map',
+			tabWidth: 600
 		};
 		// this.onResize = this.onResize.bind(this);
+		this.onResize = this.onResize.bind(this);
 	}
 
 	componentDidMount() {
@@ -55,10 +57,6 @@ class App extends React.Component {
 	handleIndicator = (e) => {
 		// send topic, indicator
 		this.updateMenus(this.state.topic, e.target.value);
-	};
-
-	handleSelect = (e) => {
-
 	};
 
 	handleShapeClick = (e) => {
@@ -82,6 +80,13 @@ class App extends React.Component {
 	handleButton = (val) => {
 		this.setState({
 			viz: val
+		});
+	};
+
+	onResize = (w) => {
+		console.log(w);
+		this.setState({
+			tabWidth: Math.round(0.9 * w)
 		});
 	};
 
@@ -112,17 +117,12 @@ class App extends React.Component {
 		});
 	}
 
-
-
 	makeScale(data) {
 		let vals = _.pluck(data, 'value');
 		if (!vals.length) {
 			return scaleThreshold({ domain: [0, 1], range: ['#ccc'] });
 		} else {
 			let brks = ckmeans(vals, 5).map((d) => d[0]).slice(1);
-			// return scaleThreshold()
-			// 	.domain(brks)
-			// 	.range(schemeGnBu[5]);
 			return scaleThreshold({
 				domain: brks,
 				range: schemeGnBu[5]
@@ -146,7 +146,6 @@ class App extends React.Component {
 								handleIndicator={this.handleIndicator}
 								topic={this.state.topic}
 								indicators={this.state.indicators}
-								handleSelect={this.handleSelect}
 							/>
 						</Col>
 					</Row>
@@ -164,13 +163,14 @@ class App extends React.Component {
 													handleClick={this.handleShapeClick}
 													data={this.state.toMap}
 													color={this.state.color}
+													collapse={this.state.tabWidth < 400}
 												/>
 											</Tab>
 											<Tab eventKey="chart" title="View chart">
 												<Chart
 													// size={[this.state.width, this.state.width]}
 													// size={[600, 400]}
-													width={600}
+													width={this.state.tabWidth}
 													height={480}
 													handleClick={this.handleBarClick}
 													data={this.state.toChart}
@@ -179,6 +179,7 @@ class App extends React.Component {
 											</Tab>
 										</Tabs>
 									</div>
+									<ReactResizeDetector handleWidth onResize={this.onResize} />
 								</Col>
 								<Col md={4}>
 									<Profile
