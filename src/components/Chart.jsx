@@ -2,16 +2,13 @@ import React from 'react';
 import * as _ from 'underscore';
 import { format } from 'd3-format';
 import { extent, max } from 'd3-array';
-// import { scaleOrdinal } from 'd3-scale';
-// import { AnnotationLabel } from 'react-annotation';
-
-// import { VictoryBar, VictoryChart } from 'victory';
-// import { ResponsiveORFrame } from 'semiotic';
 import { ScaleSVG } from '@vx/responsive';
 import { Bar } from '@vx/shape';
 import { Group } from '@vx/group';
 import { AxisBottom, AxisLeft } from '@vx/axis';
 import { scaleOrdinal, scaleBand, scaleLinear } from '@vx/scale';
+// import { TooltipWithBounds, Tooltip } from '@vx/tooltip';
+import Tooltip from 'react-portal-tooltip';
 
 import '../styles/Chart.css';
 
@@ -21,6 +18,26 @@ const color = scaleOrdinal({
 });
 
 const percent = (x) => format('.0%')(x);
+const neighborhood = (d) => d.neighborhood;
+const value = (d) => +d.value;
+const makeId = (str) => str.toLowerCase().replace(/\W/gi, '');
+
+const tipStyle = {
+	style: {
+		background: '#333',
+		opacity: 0.85,
+		boxShadow: 0,
+		color: 'white',
+		fontFamily: 'Barlow',
+		fontSize: '0.85em',
+		padding: '3px'
+	},
+	arrowStyle: {
+		color: '#333',
+		opacity: 0.85,
+		borderColor: false
+	}
+};
 
 const margin = { left: 135, top: 30, bottom: 50, right: 40 };
 
@@ -28,45 +45,49 @@ export default class Chart extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			hovered: ''
+			tipString: '',
+			tipLeft: 0,
+			tipTop: 0,
+			hovering: false,
+			hoverOver: 'bar-amity'
 		};
 		this.handleClick = props.handleClick.bind(this);
+		this.showTooltip = this.showTooltip.bind(this);
+		this.hideTooltip = this.hideTooltip.bind(this);
 	}
 
 	colorNeighborhood = (d) => {
 		return d.neighborhood === this.props.hood ? '#0868ac' : color(d.geoType);
 	};
 
-	handleHover = (d) => {
-		let hovered = d === undefined ? '' : d.neighborhood;
+	showTooltip = (d, e) => {
+		console.log(d, e);
+		let id = `bar-${makeId(d.y)}`;
 		this.setState({
-			hovered: hovered
+			tipString: percent(d.x),
+			hovering: true,
+			hoverOver: id
 		});
 	};
 
-	makeTooltip = (bar) => {
-		if (bar) {
-			console.log(bar);
-			let displayVal = bar.d.displayVal;
-			return (<text><tspan>{displayVal}</tspan></text>);
-		}
+	hideTooltip = () => {
+		this.setState({
+			hovering: false
+		});
 	};
 
-    render() {
 
+    render() {
 		let data = this.props.data;
 		let width = this.props.width;
 		let height = this.props.height;
 		let innerWidth = width - margin.left - margin.right;
 		let innerHeight = height - margin.top - margin.bottom;
 
-		const neighborhood = (d) => d.neighborhood;
-		const value = (d) => +d.value;
-
 		let xscale = scaleLinear({
 			range: [0, innerWidth],
 			domain: [0, max(data, value)],
-			// nice: true
+			nice: true
 		});
 
 		let yscale = scaleBand({
@@ -77,21 +98,25 @@ export default class Chart extends React.Component {
 
 		return (
 			<div className="Chart">
-				<ScaleSVG width={width} height={height}>
+				<ScaleSVG width={width} height={height} onMouseLeave={this.handleLeave}>
 					<Group top={margin.top} left={margin.left}>
 						{data.map((d, i) => {
 							let barLength = xscale(value(d));
+							let y = yscale(neighborhood(d));
 							return (
 								<Group key={`bar-${neighborhood(d)}`}>
 									<Bar
 										height={yscale.bandwidth()}
 										width={barLength}
-										y={yscale(neighborhood(d))}
+										y={y}
 										x={0}
+										id={`bar-${makeId(neighborhood(d))}`}
 										fill={ this.colorNeighborhood(d) }
 										data={{ x: value(d), y: neighborhood(d) }}
 										className="bar"
 										onClick={data => e => this.handleClick(data)}
+										onMouseEnter={data => e => this.showTooltip(data, e)}
+										onMouseLeave={data => e => this.hideTooltip()}
 									/>
 								</Group>
 							)
@@ -105,7 +130,7 @@ export default class Chart extends React.Component {
 								fontFamily: 'Barlow Semi Condensed',
 								textAnchor: 'end'
 							})}
-							className="axis"
+							className={'axis'}
 						/>
 						<AxisBottom
 							scale={xscale}
@@ -116,10 +141,20 @@ export default class Chart extends React.Component {
 							})}
 							tickFormat={percent}
 							numTicks={5}
-							className="axis"
+							className={'axis'}
 						/>
 					</Group>
 				</ScaleSVG>
+				<Tooltip
+					active={this.state.hovering}
+					position="right"
+					// arrow="center"
+					parent={`#${this.state.hoverOver}`}
+					style={tipStyle}
+					tooltipTimeout={300}
+				>
+					<div className="tooltip-content">{this.state.tipString}</div>
+				</Tooltip>
 			</div>
 		);
     }

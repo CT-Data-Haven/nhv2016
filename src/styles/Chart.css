@@ -1,6 +1,7 @@
 .Chart {
     font-family: 'Barlow Semi Condensed', sans-serif;
 	font-size: 12px;
+    position: relative;
 }
 
 .Chart g.vx-axis line {
