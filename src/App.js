@@ -83,6 +83,12 @@ class App extends React.Component {
 		});
 	};
 
+	handleTableClick = (row) => {
+		this.setState({
+			hood: row.row.Neighborhood
+		});
+	};
+
 	onResize = (w) => {
 		console.log(w);
 		this.setState({
@@ -195,7 +201,13 @@ class App extends React.Component {
 					</Row>
 
 					<Row>
-						<Col md={12}><Table data={this.state.table} hood={this.state.hood} /></Col>
+						<Col md={12}>
+							<Table
+								data={this.state.table}
+								hood={this.state.hood}
+								handleClick={this.handleTableClick}
+							/>
+						</Col>
 					</Row>
 					<Row>
 						<Col md={12}><Footer /></Col>

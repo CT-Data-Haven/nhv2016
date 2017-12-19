@@ -46,8 +46,6 @@ export default class Chart extends React.Component {
 		super(props);
 		this.state = {
 			tipString: '',
-			tipLeft: 0,
-			tipTop: 0,
 			hovering: false,
 			hoverOver: 'bar-amity'
 		};
@@ -140,7 +138,7 @@ export default class Chart extends React.Component {
 								textAnchor: 'middle'
 							})}
 							tickFormat={percent}
-							numTicks={5}
+							numTicks={4}
 							className={'axis'}
 						/>
 					</Group>

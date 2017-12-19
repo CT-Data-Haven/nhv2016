@@ -18,12 +18,13 @@ const comma = format(',');
 const formatNumber = (s) => (s > 0 && s < 1) ? percent(s) : comma(s);
 
 export default class Table extends React.Component {
-	constructor() {
-		super();
+	constructor(props) {
+		super(props);
 		this.state = {
 			sorted: []
 		};
 		this.getSorted = this.getSorted.bind(this);
+		this.handleClick = props.handleClick.bind(this);
 	}
 
 	getSorted = (id) => {
@@ -37,11 +38,17 @@ export default class Table extends React.Component {
 
 	hiliteHood = (state, rowInfo, column) => {
 		let hood = rowInfo ? rowInfo.row.Neighborhood : null;
+		let style = {};
 		if (hood === this.props.hood) {
-			return { style: { background: '#e0f3db' } };
-		} else {
-			return {};
+			style = {
+				background: '#e0f3db'
+			};
 		}
+		return {
+			onClick: (e) => this.handleClick(rowInfo),
+			style: style
+		};
+
 	};
 
 	render() {
