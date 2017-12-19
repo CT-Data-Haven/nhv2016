@@ -1,19 +1,28 @@
 import React from 'react';
 import * as _ from 'underscore';
 import { format } from 'd3-format';
-import { scaleOrdinal } from 'd3-scale';
-import { AnnotationLabel } from 'react-annotation';
+import { extent, max } from 'd3-array';
+// import { scaleOrdinal } from 'd3-scale';
+// import { AnnotationLabel } from 'react-annotation';
 
 // import { VictoryBar, VictoryChart } from 'victory';
-import { ResponsiveORFrame } from 'semiotic';
+// import { ResponsiveORFrame } from 'semiotic';
+import { ScaleSVG } from '@vx/responsive';
+import { Bar } from '@vx/shape';
+import { Group } from '@vx/group';
+import { AxisBottom, AxisLeft } from '@vx/axis';
+import { scaleOrdinal, scaleBand, scaleLinear } from '@vx/scale';
 
 import '../styles/Chart.css';
 
-const color = scaleOrdinal()
-	.domain(['1_neighborhood', '2_city', '3_region', '4_state'])
-	.range(['#666', '#9f9f9f', '#9f9f9f', '#9f9f9f']);
+const color = scaleOrdinal({
+	domain: ['1_neighborhood', '2_city', '3_region', '4_state'],
+	range: ['#68707c', '#9f9f9f', '#9f9f9f', '#9f9f9f']
+});
 
-const margin = { left: 125, top: 30, bottom: 50, right: 40 };
+const percent = (x) => format('.0%')(x);
+
+const margin = { left: 135, top: 30, bottom: 50, right: 40 };
 
 export default class Chart extends React.Component {
 	constructor(props) {
@@ -24,11 +33,7 @@ export default class Chart extends React.Component {
 	}
 
 	colorNeighborhood = (d) => {
-		return {
-			// fill: d.neighborhood === this.props.hood ? '#0868ac' : '#555',
-			fill: d.neighborhood === this.props.hood ? '#0868ac' : color(d.geoType),
-			opacity: 0.8
-		};
+		return d.neighborhood === this.props.hood ? '#0868ac' : color(d.geoType);
 	};
 
 	handleHover = (d) => {
@@ -49,51 +54,71 @@ export default class Chart extends React.Component {
     render() {
 
 		let data = this.props.data;
-		let axis = {
-			orient: 'bottom',
-			tickFormat: d => format('.0%')(d),
-			className: 'percent-axis',
-			ticks: 4
-		};
-		let annotations = _.chain(data)
-			.filter((d) => d.neighborhood === this.state.hovered)
-			.each((d) => {
-				d.type = AnnotationLabel;
-				d.title = d.neighborhood;
-				d.label = d.displayVal;
-				d.align = 'middle';
-				d.end = 'none';
-				d.dx = 30;
-				d.dy = 0;
-			})
-			.value();
+		let width = this.props.width;
+		let height = this.props.height;
+		let innerWidth = width - margin.left - margin.right;
+		let innerHeight = height - margin.top - margin.bottom;
 
-        return (
-            <div className="Chart">
-				<ResponsiveORFrame
-					size={this.props.size}
-					data={data}
-					axis={axis}
-					responsiveWidth={true}
-					responsiveHeight={false}
-					projection={'horizontal'}
-					renderKey={ d => d.neighborhood }
-					type={'bar'}
-					style={ this.colorNeighborhood }
-					oAccessor={ d => d.neighborhood }
-					rAccessor={ d => d.value }
-					oLabel={true}
-					oPadding={3}
-					pieceClass={'bar'}
-					pieceHoverAnnotation={true}
-					customClickBehavior={this.props.handleClick}
-					customHoverBehavior={this.handleHover}
-					// svgAnnotationRules={this.makeTooltip}
-					tooltipContent={ d => (<span></span>) }
-					annotations={annotations}
-					margin={margin}
-				/>
+		const neighborhood = (d) => d.neighborhood;
+		const value = (d) => +d.value;
+
+		let xscale = scaleLinear({
+			range: [0, innerWidth],
+			domain: [0, max(data, value)],
+			// nice: true
+		});
+
+		let yscale = scaleBand({
+			rangeRound: [0, innerHeight],
+			domain: data.map(neighborhood),
+			padding: 0.2,
+		});
+
+		return (
+			<div className="Chart">
+				<ScaleSVG width={width} height={height}>
+					<Group top={margin.top} left={margin.left}>
+						{data.map((d, i) => {
+							let barLength = xscale(value(d));
+							return (
+								<Group key={`bar-${neighborhood(d)}`}>
+									<Bar
+										height={yscale.bandwidth()}
+										width={barLength}
+										y={yscale(neighborhood(d))}
+										x={0}
+										fill={ this.colorNeighborhood(d) }
+										data={{ x: value(d), y: neighborhood(d) }}
+										className="bar"
+									/>
+								</Group>
+							)
+						})}
+						<AxisLeft
+							hideAxisLine={true}
+							hideTicks={true}
+							scale={yscale}
+							tickLabelProps={(val, i) => ({
+								dy: '0.3em',
+								fontFamily: 'Barlow Semi Condensed',
+								textAnchor: 'end'
+							})}
+							className="axis"
+						/>
+						<AxisBottom
+							scale={xscale}
+							top={innerHeight}
+							tickLabelProps={(val, i) => ({
+								fontFamily: 'Barlow Semi Condensed',
+								textAnchor: 'middle'
+							})}
+							tickFormat={percent}
+							numTicks={5}
+							className="axis"
+						/>
+					</Group>
+				</ScaleSVG>
 			</div>
-        );
+		);
     }
 }

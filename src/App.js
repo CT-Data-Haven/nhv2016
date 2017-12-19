@@ -34,7 +34,7 @@ class App extends React.Component {
 			toChart: [],
 			hood: 'Amity',
 			color: scaleThreshold({ domain: [0, 1], range: ['#ccc'] }),
-			viz: 'map'
+			viz: 'chart'
 		};
 		// this.onResize = this.onResize.bind(this);
 	}
@@ -169,7 +169,9 @@ class App extends React.Component {
 											<Tab eventKey="chart" title="View chart">
 												<Chart
 													// size={[this.state.width, this.state.width]}
-													size={[600, 400]}
+													// size={[600, 400]}
+													width={600}
+													height={480}
 													handleClick={this.handleBarClick}
 													data={this.state.toChart}
 													hood={this.state.hood}

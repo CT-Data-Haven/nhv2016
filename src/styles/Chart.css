@@ -8,7 +8,7 @@
     stroke-width: 1px;
 }
 
-.Chart rect.bar {
+.Chart rect.vx-bar {
     transition: x 400ms ease-in-out, y 400ms ease-in-out, width 400ms ease-in-out, height 400ms ease-in-out,
 		fill 200ms ease-in-out;
 }
