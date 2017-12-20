@@ -40,7 +40,7 @@ const tipStyle = {
 	}
 };
 
-const margin = { left: 135, top: 30, bottom: 50, right: 12 };
+let margin = { left: 135, top: 30, bottom: 50, right: 12 };
 
 export default class Chart extends React.Component {
 	constructor(props) {
@@ -85,6 +85,7 @@ export default class Chart extends React.Component {
 		let data = this.props.data;
 		let width = this.props.width;
 		let height = this.props.height;
+		margin.left = 0.25 * width;
 		let innerWidth = width - margin.left - margin.right;
 		let innerHeight = height - margin.top - margin.bottom;
 
@@ -145,6 +146,11 @@ export default class Chart extends React.Component {
 								fontFamily: 'Barlow Semi Condensed',
 								textAnchor: 'end'
 							})}
+							// tickFormat={(x) => x.length < 20 ? x : x.substr(0, 20) + '...'}
+							tickFormat={(x) => {
+								let len = Math.floor(0.15 * margin.left);
+								return x.length < len ? x : x.substr(0, len) + '...';
+							}}
 							className={'axis'}
 						/>
 						<AxisBottom

@@ -1,6 +1,6 @@
 .Chart {
     font-family: 'Barlow Semi Condensed', sans-serif;
-	font-size: 0.9em;
+	font-size: 0.85em;
     position: relative;
 }
 
@@ -10,6 +10,10 @@
 }
 
 .Chart g.cx-group rect.bar {
-    transition: fill 400ms ease-in-out;
+    transition: fill 200ms ease-in-out;
     cursor: pointer;
+}
+
+.Chart g.vx-axis-left text {
+    /* text-overflow: ellipsis; */
 }
