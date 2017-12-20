@@ -34,7 +34,7 @@ class App extends React.Component {
 			toChart: [],
 			hood: 'Amity',
 			color: scaleThreshold({ domain: [0, 1], range: ['#ccc'] }),
-			viz: 'map',
+			viz: 'chart',
 			tabWidth: 600
 		};
 		// this.onResize = this.onResize.bind(this);

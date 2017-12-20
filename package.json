@@ -26,6 +26,8 @@
     "react-bootstrap": "^0.31.5",
     "react-dom": "^16.2.0",
     "react-icons": "^2.2.7",
+    "react-motion": "^0.5.2",
+    "react-move": "^2.6.0",
     "react-portal-tooltip": "^2.3.0",
     "react-resize-detector": "^1.1.0",
     "react-scripts": "1.0.17",

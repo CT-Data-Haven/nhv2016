@@ -9,6 +9,7 @@ import { AxisBottom, AxisLeft } from '@vx/axis';
 import { scaleOrdinal, scaleBand, scaleLinear } from '@vx/scale';
 // import { TooltipWithBounds, Tooltip } from '@vx/tooltip';
 import Tooltip from 'react-portal-tooltip';
+import { Motion, StaggeredMotion, spring } from 'react-motion';
 
 import '../styles/Chart.css';
 
@@ -47,11 +48,17 @@ export default class Chart extends React.Component {
 		this.state = {
 			tipString: '',
 			hovering: false,
-			hoverOver: 'bar-amity'
+			hoverOver: 'bar-amity',
+			oldScale: null,
+			newScale: null
 		};
 		this.handleClick = props.handleClick.bind(this);
 		this.showTooltip = this.showTooltip.bind(this);
 		this.hideTooltip = this.hideTooltip.bind(this);
+	}
+
+	componentWillReceiveProps(nextProps) {
+
 	}
 
 	colorNeighborhood = (d) => {
@@ -59,7 +66,6 @@ export default class Chart extends React.Component {
 	};
 
 	showTooltip = (d, e) => {
-		console.log(d, e);
 		let id = `bar-${makeId(d.y)}`;
 		this.setState({
 			tipString: percent(d.x),
@@ -94,6 +100,8 @@ export default class Chart extends React.Component {
 			padding: 0.2,
 		});
 
+
+
 		return (
 			<div className="Chart">
 				<svg width={width} height={height}>
@@ -102,23 +110,32 @@ export default class Chart extends React.Component {
 							let barLength = xscale(value(d));
 							let y = yscale(neighborhood(d));
 							return (
-								<Group key={`bar-${neighborhood(d)}`}>
-									<Bar
-										height={yscale.bandwidth()}
-										width={barLength}
-										y={y}
-										x={0}
-										id={`bar-${makeId(neighborhood(d))}`}
-										fill={ this.colorNeighborhood(d) }
-										data={{ x: value(d), y: neighborhood(d) }}
-										className="bar"
-										onClick={data => e => this.handleClick(data)}
-										onMouseEnter={data => e => this.showTooltip(data, e)}
-										onMouseLeave={data => e => this.hideTooltip()}
-									/>
-								</Group>
+								<Motion key={i}
+									defaultStyle={{ width: 0 }}
+									style={{ width: spring(barLength, { stiffness: 150, damping: 20 }) }}
+								>
+									{ (style) => (
+										<Group >
+											<Bar
+												height={yscale.bandwidth()}
+												// width={barLength}
+												width={style.width}
+												y={y}
+												x={0}
+												id={`bar-${makeId(neighborhood(d))}`}
+												fill={ this.colorNeighborhood(d) }
+												data={{ x: value(d), y: neighborhood(d) }}
+												className="bar"
+												onClick={data => e => this.handleClick(data)}
+												onMouseEnter={data => e => this.showTooltip(data, e)}
+												onMouseLeave={data => e => this.hideTooltip()}
+											/>
+										</Group>
+									)}
+								</Motion>
 							)
 						})}
+
 						<AxisLeft
 							hideAxisLine={true}
 							hideTicks={true}

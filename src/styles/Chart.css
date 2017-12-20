@@ -10,6 +10,6 @@
 }
 
 .Chart g.cx-group rect.bar {
-    transition: all 400ms ease-in-out;
+    transition: fill 400ms ease-in-out;
     cursor: pointer;
 }
