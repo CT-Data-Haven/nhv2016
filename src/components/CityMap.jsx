@@ -5,7 +5,6 @@ import { LegendThreshold } from '@vx/legend';
 import * as topojson from 'topojson-client';
 import { format } from 'd3-format';
 import Tooltip from 'react-portal-tooltip';
-import { Col } from 'react-bootstrap';
 
 import topology from './nhv_shape_topo.json';
 import '../styles/CityMap.css';
