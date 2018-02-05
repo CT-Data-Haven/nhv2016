@@ -60,11 +60,12 @@ class App extends React.Component {
 	};
 
 	handleShapeClick = (e) => {
-		if (e.properties.Neighborhood === 'Long Wharf') {
+		let name = e.target.feature.properties.Neighborhood;
+		if (name === 'Long Wharf') {
 			return;
 		}
 		this.setState({
-			hood: e.properties.Neighborhood
+			hood: name
 		});
 	};
 

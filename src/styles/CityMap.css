@@ -1,24 +1,33 @@
 .CityMap {
-	max-width: 600px;
+	/* margin: 24px auto; */
+	position: relative;
+	/* margin-left: -1px; */
+	/* margin-right: -1px; */
+	border-right: 1px solid #d4d4d5;
+	border-left: 1px solid #d4d4d5;
+	border-bottom: 1px solid #d4d4d5;
 }
 
-.CityMap .vx-geo-mercator {
-	cursor: pointer;
-	transition: fill 300ms, opacity 300ms;
-	opacity: 0.8;
+.CityMap .leaflet-container {
+	width: 100%;
+	height: 400px;
 }
 
-.CityMap .vx-geo-mercator:hover {
-	opacity: 1;
+.CityMap div.leaflet-control-layers.leaflet-control {
+	visibility: hidden;
 }
 
-.CityMap .legend-container {
-	/* position: absolute; */
-	/* bottom: 3em; */
-	/* left: 40px; */
-	font-size: 0.85em;
+.CityMap .custom-tip {
+	background-color: #333;
+	color: white;
+	border-color: #333;
+	opacity: 0.85;
+	font-size: 0.8em;
+	font-family: 'Lato', sans-serif;
+	padding: 3px;
+	font-weight: 400;
 }
 
-.CityMap .legend-container .vx-legend-shape>div {
-	border: 1px solid #888;
+.CityMap .custom-tip::before {
+	border-top-color: #333;
 }
