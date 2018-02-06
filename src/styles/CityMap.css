@@ -20,6 +20,7 @@
 	font-family: 'Barlow', sans-serif;
 	padding: 3px;
 	font-weight: 400;
+	z-index: 5001;
 }
 
 .CityMap .custom-tip::before {

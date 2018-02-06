@@ -10,6 +10,7 @@ import '../styles/CityMap.css';
 const b = topojson.bbox(topology);
 const bbox = [[ b[1], b[0] ], [ b[3], b[2] ]];
 const shape = topojson.feature(topology, topology.objects.nhv_shape);
+const blob = topojson.merge(topology, topology.objects.nhv_shape.geometries);
 
 export default class CityMap extends React.Component {
 	updateColor = (geography) => {
@@ -40,7 +41,8 @@ export default class CityMap extends React.Component {
 		e.target.setStyle({
 			fillOpacity: 0.95,
 			weight: 1
-		}).bringToFront();
+		});
+		// .bringToFront();
 	};
 
 	removeHilite = (e) => {
@@ -77,6 +79,16 @@ export default class CityMap extends React.Component {
 						key={(feature) => feature.properties.Neighborhood}
 						style={this.updateColor}
 						onEachFeature={this.onEachFeature}
+					/>
+					<GeoJSON
+						data={blob}
+						style={{
+							fillColor: 'transparent',
+							color: '#333',
+							weight: 1.5,
+							pointerEvents: 'none'
+						}}
+						interactive={false}
 					/>
 				</Map>
 				<Legend colorscale={this.props.color} />
